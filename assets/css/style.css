@@ -1,3 +1,10 @@
+/* TEST AREA */
+
+
+
+
+
+
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Sacramento&display=swap');
 
 
@@ -56,7 +63,7 @@ h1,
 h2,
 h3 {
     font-family: "Sacramento", cursive;
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 .navbar {
@@ -82,7 +89,7 @@ footer .fab {
 
 /***************************** LINKS */
 
-/***************************** PADDING AND MARGIN */
+/***************************** POSITIONING, PADDING AND MARGIN */
 
 body {
     overflow-x: hidden;
@@ -117,6 +124,23 @@ footer .fab {
     margin: 0;
 }
 
+.descriptions{
+    margin: 1rem 0 1rem 0;
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
 /***************************** NAVIGATION */
 
 /***************************** CONTAINERS */
@@ -146,7 +170,7 @@ footer .fab {
     }
 
     .navbar {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         letter-spacing: .2rem;
     }
 

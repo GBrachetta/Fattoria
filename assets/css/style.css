@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Sacramento&display=swap');
+
+
+/***************************** COLORS */
+
+.navbar {
+    background: rgba(30, 187, 163, 0.4) !important;
+}
+
+#navbarResponsive li a {
+    color: #c8d8d6;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+#navbarResponsive li a:hover {
+    color: #7a3636;
+}
+
+footer .fab {
+    color: #c8d8d6;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+footer .fab:hover {
+    color: #1ebba3;
+}
+
+.footer-top {
+    background-color: #7a3636;
+}
+
+.footer-copyright {
+    background-color: rgb(143, 78, 18);
+    color: #c8d8d6;
+}
+
+.text-footer {
+    color: #c8d8d6;
+}
+
+/***************************** FONTS */
+
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Sacramento", cursive;
+    font-size: 3rem;
+}
+
+.navbar {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: .2rem;
+}
+
+footer .fab {
+    font-size: 2.5rem;
+}
+
+.text-footer {
+    letter-spacing: 1.5px;
+}
+
+.footer-copyright {
+    font-size: .9rem;
+    font-weight: 300;
+}
+
+
+/***************************** LINKS */
+
+/***************************** PADDING AND MARGIN */
+
+body {
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+footer .fab {
+    margin: 2rem 1rem 0 1rem;
+}
+
+.footer-copyright p {
+    margin: 0;
+}
+
+.footer-top {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.footer-text-cont {
+    margin-top: 0;
+    padding: 0;
+}
+
+.text-footer {
+    margin: 0;
+}
+
+.footer-social {
+    margin: 0;
+}
+
+/***************************** NAVIGATION */
+
+/***************************** CONTAINERS */
+
+/***************************** VIDEO */
+
+/***************************** IMAGES */
+
+.navbar-brand img {
+    height: 4rem;
+}
+
+/***************************** FOOTER */
+
+/***************************** MEDIA QUERIES */
+@media (min-width: 767px) {
+    body {
+        font-size: 1.2rem;
+    }
+
+    .footer-text-cont {
+        padding-left: 2rem;
+    }
+
+    footer .fab {
+        margin-top: 1rem;
+    }
+
+    .navbar {
+        font-size: 1.4rem;
+        letter-spacing: .2rem;
+    }
+
+    .footer-copyright {
+        font-size: 1.1rem;
+    }
+}

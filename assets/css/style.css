@@ -62,6 +62,11 @@ footer .fab:hover {
 .overlay-text{
     color: #fafafa;
 }
+
+.first-rows{
+    background-color: rgb(77, 77, 16);
+    color: #fafafa;
+}
 /***************************** FONTS */
 
 body {
@@ -127,6 +132,10 @@ body {
     width: 100%;
     line-height: 1.5;
     text-align: center;
+}
+
+.first-rows{
+    padding-top: 100px;
 }
 
 footer .fab {

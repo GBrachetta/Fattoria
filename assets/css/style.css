@@ -5,13 +5,17 @@
 
 
 
-@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab:300,400,600,700|Lato:300,400,700,900|Sacramento&display=swap');
 
 
 /***************************** COLORS */
 
 .navbar {
     background: rgba(30, 187, 163, 0.4) !important;
+}
+
+#navbarResponsive .active a {
+    color: #7a3636;
 }
 
 #navbarResponsive li a {
@@ -24,6 +28,10 @@
 
 #navbarResponsive li a:hover {
     color: #7a3636;
+}
+
+.hero-overlay {
+    background: rgba(0, 0, 0, 0.4);
 }
 
 footer .fab {
@@ -39,7 +47,7 @@ footer .fab:hover {
 }
 
 .footer-top {
-    background-color: #7a3636;
+    background-color: rgb(122, 54, 54);
 }
 
 .footer-copyright {
@@ -51,6 +59,9 @@ footer .fab:hover {
     color: #c8d8d6;
 }
 
+.overlay-text{
+    color: #fafafa;
+}
 /***************************** FONTS */
 
 body {
@@ -59,11 +70,22 @@ body {
     font-size: 1rem;
 }
 
-h1,
-h2,
-h3 {
+h1 {
+    font-family: "Sacramento", cursive;
+    font-size: 4rem;
+}
+
+h2 {
     font-family: "Sacramento", cursive;
     font-size: 2.5rem;
+
+}
+
+h3 {
+    font-family: "Josefin Slab", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-transform: uppercase;
 }
 
 .navbar {
@@ -97,6 +119,16 @@ body {
     margin: 0;
 }
 
+.hero-overlay {
+    position: absolute;
+    top: 25%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    line-height: 1.5;
+    text-align: center;
+}
+
 footer .fab {
     margin: 2rem 1rem 0 1rem;
 }
@@ -124,23 +156,29 @@ footer .fab {
     margin: 0;
 }
 
-.descriptions{
+.descriptions {
     margin: 1rem 0 1rem 0;
 }
 
-.map-responsive{
-    overflow:hidden;
-    padding-bottom:50%;
-    position:relative;
-    height:0;
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 50%;
+    position: relative;
+    height: 0;
 }
-.map-responsive iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
 }
+
+.section-titles {
+    margin-top: 15px;
+}
+
 /***************************** NAVIGATION */
 
 /***************************** CONTAINERS */
@@ -153,6 +191,15 @@ footer .fab {
     height: 4rem;
 }
 
+.hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image. This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("/assets/images/colle_2.JPG");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
 /***************************** FOOTER */
 
 /***************************** MEDIA QUERIES */

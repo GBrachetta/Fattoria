@@ -19,7 +19,7 @@
 /***************************** COLORS */
 
 .navbar {
-    background: rgba(30, 187, 163, 1) !important;
+    background: rgba(30, 187, 163, .5)!important;
 }
 
 #navbarResponsive .active a {
@@ -39,11 +39,13 @@
 }
 
 .section-headers {
+    background-color: rgb(77,77,16);
     background-color: rgba(77, 77, 16, .2);
     color: #000;
 }
 
 .hero-overlay {
+    background: #000;
     background: rgba(0, 0, 0, 0.4);
 }
 
@@ -77,6 +79,7 @@ footer .fab:hover {
 }
 
 .first-rows {
+    background-color: rgb(77,77,16);
     background-color: rgba(77, 77, 16, .2);
     color: #000;
 }
@@ -93,12 +96,14 @@ footer .fab:hover {
 }
 
 .btn-info:hover {
+    background-color: rgb(77,77,16);
     background-color: rgba(77, 77, 16, .2);
     color: saddlebrown;
 }
 
 .price{
-    padding: 2;
+    padding: 2rem;
+    background-color: rgb(77,77,16);
     background-color: rgba(77, 77, 16, .2)
 }
 

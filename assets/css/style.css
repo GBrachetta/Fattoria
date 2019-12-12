@@ -1,9 +1,17 @@
 /* TEST AREA */
+/* 
+.nav-wrapper{
+    position: relative;
+}
 
+#mynavbar{
+    position: absolute;
+} */
 
-
-
-
+/* .container-reviews-wrapper{
+    background-color: #cc8585;
+    padding: 10px 0 10px;
+} */
 
 @import url('https://fonts.googleapis.com/css?family=Josefin+Slab:300,400,600,700|Lato:300,400,700,900|Sacramento&display=swap');
 
@@ -11,7 +19,7 @@
 /***************************** COLORS */
 
 .navbar {
-    background: rgba(30, 187, 163, 0.4) !important;
+    background: rgba(30, 187, 163, 1) !important;
 }
 
 #navbarResponsive .active a {
@@ -28,6 +36,11 @@
 
 #navbarResponsive li a:hover {
     color: #7a3636;
+}
+
+.section-headers {
+    background-color: rgba(77, 77, 16, .2);
+    color: #000;
 }
 
 .hero-overlay {
@@ -59,14 +72,36 @@ footer .fab:hover {
     color: #c8d8d6;
 }
 
-.overlay-text{
+.overlay-text {
     color: #fafafa;
 }
 
-.first-rows{
+.first-rows {
+    background-color: rgba(77, 77, 16, .2);
+    color: #000;
+}
+
+.btn-info {
     background-color: rgb(77, 77, 16);
     color: #fafafa;
+    border: 0;
+    border-radius: 0;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
+
+.btn-info:hover {
+    background-color: rgba(77, 77, 16, .2);
+    color: saddlebrown;
+}
+
+.price{
+    padding: 2;
+    background-color: rgba(77, 77, 16, .2)
+}
+
 /***************************** FONTS */
 
 body {
@@ -100,6 +135,16 @@ h3 {
     letter-spacing: .2rem;
 }
 
+.blockquote {
+    font-size: .9rem;
+}
+
+.col-descriptions {
+    font-family: "Lato", sans-serif;
+    font-size: 1rem;
+
+}
+
 footer .fab {
     font-size: 2.5rem;
 }
@@ -113,7 +158,10 @@ footer .fab {
     font-weight: 300;
 }
 
-
+.price{
+    font-size: 1.3rem;
+    
+}
 /***************************** LINKS */
 
 /***************************** POSITIONING, PADDING AND MARGIN */
@@ -134,7 +182,7 @@ body {
     text-align: center;
 }
 
-.first-rows{
+.first-rows {
     padding-top: 100px;
 }
 
@@ -188,6 +236,8 @@ footer .fab {
     margin-top: 15px;
 }
 
+
+
 /***************************** NAVIGATION */
 
 /***************************** CONTAINERS */
@@ -209,6 +259,7 @@ footer .fab {
     background-size: cover;
     position: relative;
 }
+
 /***************************** FOOTER */
 
 /***************************** MEDIA QUERIES */
@@ -232,5 +283,9 @@ footer .fab {
 
     .footer-copyright {
         font-size: 1.1rem;
+    }
+
+    .second-col{
+        margin-left: 4rem;
     }
 }

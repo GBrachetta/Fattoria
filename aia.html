@@ -13,49 +13,36 @@
 
 <body>
     <!--- START NAVBAR -->
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-        <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png"></img></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
-                <li class="active nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="apartments.html">Apartments</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <!--- END NAVBAR -->
-    <!--- START HERO MOBILE -->
-    <div class="hero-image">
-        <div class="container-fluid hero-overlay py-3">
-            <div class="row">
-                <div class="col-12 overlay-text">
-                    <h1>Welcome</h1>
-                    <h3>to your second home</h3>
-                </div>
+    <div class="nav-wrapper">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top" id="mynavbar">
+            <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png"></img></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="apartments.html">Apartments</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
             </div>
-        </div>
-        <!-- <div class="hero-button">
-            <button>Discover</button>
-        </div> -->
+        </nav>
     </div>
-    <!--- END HERO MOBILE -->
-    <!---START CAROUSEL SECTION-->
+    <!--- END NAVBAR -->
+    <!--- START CONTENT-->
     <div class="container-fluid home-fattoria-top">
-        <div class="row justify-content-center">
-            <div class="col text-center section-headers">
-                <h2 class="section-titles">The Fattoria</h2>
+        <div class="row justify-content-center first-rows">
+            <div class="col text-center">
+                <h2 class="section-titles">L' Aia</h2>
             </div>
         </div>
         <!-- START HERE-->
@@ -63,13 +50,16 @@
             data-ride="carousel">
             <div class="col-md-8 carousel-inner">
                 <div class="carousel-item active">
-                    <img class="d-block w-100" src="/assets/images/colle_0.JPG" alt="First slide">
+                    <img class="d-block w-100" src="/assets/images/aia_0.jpg" alt="First slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="/assets/images/colle_1.JPG" alt="Second slide">
+                    <img class="d-block w-100" src="/assets/images/aia_1.jpg" alt="Second slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="/assets/images/colle_2.JPG" alt="Third slide">
+                    <img class="d-block w-100" src="/assets/images/aia_2.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="/assets/images/aia_4.jpg" alt="Second slide">
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -94,44 +84,23 @@
                     If Trump Ipsum weren’t my own words, perhaps I’d be dating it. An 'extremely credible source' has
                     called my office and told me that Lorem Ipsum's birth certificate is a fraud. I'm speaking with
                     myself, number one, because I have a very good brain and I've said a lot of things. We have so many
-                    things that we have to do better... and certainly ipsum is one of them.</p>
+                    things that we have to do better... and certainly ipsum is one of them.
+                </p>
             </div>
         </div>
-    </div>
-    <!---END CAROUSEL SECTION-->
-
-    <!---START MAP SECTION-->
-    <div class="container-fluid home-fattoria-bottom">
-        <div class="row justify-content-center">
-            <div class="col text-center section-headers">
-                <h2 class="section-titles">Where we are</h2>
-            </div>
-        </div>
-        <div class="row justify-content-center mt-3">
-            <div class="col-md-8 text-center">
-                <div class="map-responsive">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d92832.18674323245!2d10.45899769007192!3d43.35598852903022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12d5fc276f9ec9fd%3A0x473fb20ceaa92989!2s57023%20Collemezzano%2C%20Province%20of%20Livorno%2C%20Italy!5e0!3m2!1sen!2snl!4v1576053419917!5m2!1sen!2snl"
-                        width="800" height="600" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-                </div>
-            </div>
-        </div>
-        <div class="row justify-content-center descriptions">
+        <div class="row justify-content-center descriptions text-center mb-0">
             <div class="col-md-8 px-0">
-                <p> You have so many different things placeholder text has to be able to do, and I don't believe Lorem
-                    Ipsum has the stamina. Be careful, or I will spill the beans on your placeholder text. That other
-                    text? Sadly, it’s no longer a 10.
-                    The other thing with Lorem Ipsum is that you have to take out its family. When other websites give
-                    you text, they’re not sending the best. They’re not sending you, they’re sending words that have
-                    lots of problems and they’re bringing those problems with us. They’re bringing mistakes. They’re
-                    bringing misspellings. They’re typists… And some, I assume, are good words. You’re disgusting. An
-                    ‘extremely credible source’ has called my office and told me that Barack Obama’s placeholder text is
-                    a fraud.</p>
+                <p class="price"> From €80 per night
+                </p>
+            </div>
+        </div>
+        <div class="row text-center mt-3 mb-5">
+            <div class="col">
+                <a class="btn btn-info" href="contact.html" role="button">Request information / Book</a>
             </div>
         </div>
     </div>
-    <!---END MAP SECTION -->
-    <!--END CONTENT-->
+    <!--- END CONTENT-->
     <!---START FOOTER SECTION -->
     <footer class="page-footer">
         <div class="container-fluid text-center text-md-left">

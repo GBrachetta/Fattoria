@@ -46,26 +46,73 @@
         </div>
         <section class="contact-form-box">
             <div class="container pt-5 pb-5 px-0">
-                <!-- Responsive contact form with validation -->
                 <form>
                     <div class="row justify-content-center">
-                        <div class="col-12 col-md-8">
+                        <div class="col-12 col-md-10 col-lg-8">
                             <div class="row">
                                 <div class="form-group col-12 col-md-6">
-                                    <input type="text" class="form-control" id="name" placeholder="Name" required>
+                                    <label class="small" for="name">Name</label>
+                                    <input id="name" name="name" placeholder="First Name" type="text"
+                                        class="form-control" required="required">
                                 </div>
                                 <div class="form-group col-12 col-md-6">
-                                    <input type="email" class="form-control" id="email" placeholder="Email" required>
+                                    <label class="small" for="surname">Surname</label>
+                                    <input id="surname" name="surname" placeholder="Surname" type="text"
+                                        required="required" class="form-control">
                                 </div>
                                 <div class="form-group col-12">
-                                    <input type="text" class="form-control" id="subject" placeholder="Subject" required>
+                                    <label class="small" for="address1">Address line 1</label>
+                                    <input id="address1" name="address1" placeholder="Address" type="text"
+                                        class="form-control">
                                 </div>
                                 <div class="form-group col-12">
-                                    <textarea id="message" rows="5" class="form-control" placeholder="Message"
-                                        required></textarea>
+                                    <label class="small" for="address2">Address line 2</label>
+                                    <input id="address2" name="address2" placeholder="Postal Code, City, Country"
+                                        type="text" class="form-control">
+                                </div>
+                                <div class="form-group col-12 col-md-4">
+                                    <label class="small" for="phone">Phone Number</label>
+                                    <input id="phone" name="phone" placeholder="Phone Number" type="text"
+                                        class="form-control">
+                                </div>
+                                <div class="form-group col-12 col-md-4">
+                                    <label class="small" for="email">Email Address</label>
+                                    <input id="email" name="email" placeholder="Email Address" type="text"
+                                        class="form-control" required="required">
+                                </div>
+                                <div class="form-group col-12 col-md-4">
+                                    <label class="small" for="apartment">Apartment Requested</label>
+                                    <select id="apartment" name="apartment" class="form-control">
+                                        <option value="robbia">La Robbia</option>
+                                        <option value="aia">L'Aia</option>
+                                        <option value="querciaia">La Querciaia</option>
+                                        <option value="piccionaia">La Piccionaia</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-12 col-md-4">
+                                    <label class="small" for="start">Start Date</label>
+                                    <input id="start" name="trip-start" placeholder="Start Date" type="date"
+                                        class="form-control">
+                                </div>
+                                <div class="form-group col-12 col-md-4">
+                                    <label class="small" for="end">End Date</label>
+                                    <input id="end" name="trip-end" type="date" class="form-control">
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label class="small" for="pets">With Pets?</label>
+                                    <select id="pets" name="pets" class="form-control">
+                                        <option value="yes">Yes</option>
+                                        <option value="no">No</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-12">
+                                    <label class="small" for="message">Leave us your request or comment</label>
+                                    <textarea id="message" name="message" placeholder="Message" type="textarea" rows="5"
+                                        class="form-control"></textarea>
                                 </div>
                             </div>
-                            <button type="submit" class="btn btn-success btn-lg btn-block text-uppercase">Submit contact
+                            <button type="submit"
+                                class="btn-info btn btn-success btn-lg btn-block text-uppercase">Submit contact
                                 form</button>
                         </div>
                     </div>
@@ -83,12 +130,12 @@
                 </div>
             </div>
             <div class="row descriptions justify-content-center">
-                <div class="col-12 col-lg-8 px-0 text-center">
+                <div class="col-12 col-md-6 px-0 text-center">
                     <img src="/assets/images/famiglia.png" class="img-fluid">
                 </div>
                 <div class="row descriptions justify-content-center">
-                    <div class="col-12 col-lg-8 px-0 text-center">
-                        <p class="col-descriptions"> You have so many different things placeholder text has to be able
+                    <div class="col-12 col-md-6 px-0 text-justify">
+                        <p> You have so many different things placeholder text has to be able
                             to do, and I don't believe Lorem Ipsum has the stamina. Be careful, or I will spill the
                             beans on your placeholder text.
                         </p>
@@ -130,6 +177,9 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
     </script>
+    <!-- TEST SCRIPTS FOR DATEPICKER START HERE-->
+
+
     <!--- End of Script Source Files -->
 </body>
 

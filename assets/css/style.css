@@ -118,12 +118,12 @@ h3 {
     text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
 }
 
-input:required:invalid {
-    border-color: #aa0000;
+input {
+    border-color: #ced4da;
 }
 
-input:required:valid {
-    border-color: #ced4da;
+input:required:invalid {
+    border-color: #c00000;
 }
 
 /***************************** FONTS */

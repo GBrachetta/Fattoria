@@ -200,6 +200,7 @@ body {
     margin: 0;
 }
 
+/* This overlay learned from Anna Greaves' MS1, eventually adapted to this project */
 .hero-overlay {
     position: absolute;
     top: 25%;
@@ -288,7 +289,7 @@ footer .fab {
 }
 
 .hero-image {
-    /* Use "linear-gradient" to add a darken background effect to the image. This will make the text easier to read */
+    /* Use of "linear-gradient" for overlay from Stackoverflow.com */
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("/assets/images/colle_2.JPG");
     height: 100vh;
     background-position: center;

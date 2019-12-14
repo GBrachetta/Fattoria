@@ -14,11 +14,11 @@
 /***************************** COLORS */
 
 .navbar {
-    background: rgb(30, 187, 163);
+    background: rgb(122, 54, 54);
 }
 
 #navbarResponsive .active a {
-    color: #7a3636;
+    color: rgb(30, 187, 163);
 }
 
 #navbarResponsive li a {
@@ -30,7 +30,7 @@
 }
 
 #navbarResponsive li a:hover {
-    color: #7a3636;
+    color: rgb(30, 187, 163);
 }
 
 .section-headers {
@@ -53,7 +53,7 @@ footer .fab {
 }
 
 footer .fab:hover {
-    color: #1ebba3;
+    color: rgb(30, 187, 163);
 }
 
 .footer-top {
@@ -91,8 +91,7 @@ footer .fab:hover {
 }
 
 .btn-info:hover {
-    background-color: rgb(77, 77, 16);
-    background-color: rgba(77, 77, 16, .2);
+    background-color: rgb(235, 225, 195);
     color: rgb(139, 69, 19);
 }
 
@@ -234,9 +233,6 @@ footer .fab {
     margin-top: 15px;
 }
 
-
-/***************************** CONTAINERS */
-
 /***************************** VIDEO */
 
 /***************************** IMAGES */
@@ -254,8 +250,6 @@ footer .fab {
     background-size: cover;
     position: relative;
 }
-
-/***************************** FOOTER */
 
 /***************************** MEDIA QUERIES */
 @media (min-width: 767px) {
@@ -284,7 +278,7 @@ footer .fab {
         margin-left: 4rem;
     }
 
-    .col-descriptions{
+    .col-descriptions {
         font-size: 1.2rem;
     }
 }

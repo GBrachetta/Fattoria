@@ -34,8 +34,8 @@
 }
 
 .section-headers {
-    background-color: rgb(77, 77, 16);
-    background-color: rgba(77, 77, 16, .2);
+    /* background-color: rgb(77, 77, 16);
+    background-color: rgba(77, 77, 16, .2); */
     color: #000;
 }
 
@@ -74,8 +74,8 @@ footer .fab:hover {
 }
 
 .first-rows {
-    background-color: rgb(77, 77, 16);
-    background-color: rgba(77, 77, 16, .2);
+    /* background-color: rgb(77, 77, 16);
+    background-color: rgba(77, 77, 16, .2); */
     color: #000;
 }
 
@@ -106,7 +106,7 @@ footer .fab:hover {
 
 body {
     font-family: "Lato", sans-serif;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 h1 {
@@ -135,6 +135,7 @@ h3 {
 
 .blockquote {
     font-size: .9rem;
+    font-weight: 400;
 }
 
 .col-descriptions {

@@ -26,6 +26,7 @@ body{
 
 #navbarResponsive li a {
     color: #c8d8d6;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -49,6 +50,7 @@ body{
 
 footer .fab {
     color: #c8d8d6;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -69,6 +71,7 @@ footer .fab:hover {
 }
 
 .text-footer {
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
     color: #c8d8d6;
 }
 
@@ -104,6 +107,18 @@ footer .fab:hover {
     background-color: rgba(77, 77, 16, .2)
 }
 
+h2{
+    color: rgb(78, 78, 78);
+}
+
+h2{
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+h3{
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+}
+
 /***************************** FONTS */
 
 body {
@@ -114,11 +129,15 @@ body {
 h1 {
     font-family: "Sacramento", cursive;
     font-size: 6rem;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+
 }
 
 h2 {
     font-family: "Sacramento", cursive;
     font-size: 3rem;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.1);
+
 
 }
 
@@ -156,6 +175,7 @@ footer .fab {
 }
 
 .footer-copyright {
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
     font-size: .9rem;
     font-weight: 300;
 }
@@ -233,7 +253,7 @@ footer .fab {
 }
 
 .section-titles {
-    margin-top: 15px;
+    margin-top: 2rem;
 }
 
 /* VIDEO SECTION'S STYLING LEARNED FROM ANNA GREAVES' MS1 CODE */

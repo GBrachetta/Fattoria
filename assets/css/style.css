@@ -15,7 +15,6 @@
 
 .navbar {
     background: rgb(30, 187, 163);
-    background: rgb(30, 187, 163);
 }
 
 #navbarResponsive .active a {
@@ -108,23 +107,22 @@ footer .fab:hover {
 body {
     font-family: "Lato", sans-serif;
     font-weight: 400;
-    font-size: 1rem;
 }
 
 h1 {
     font-family: "Sacramento", cursive;
-    font-size: 4rem;
+    font-size: 6rem;
 }
 
 h2 {
     font-family: "Sacramento", cursive;
-    font-size: 2.5rem;
+    font-size: 3rem;
 
 }
 
 h3 {
     font-family: "Josefin Slab", sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.9rem;
     font-weight: 400;
     text-transform: uppercase;
 }
@@ -132,7 +130,6 @@ h3 {
 .navbar {
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 1rem;
     letter-spacing: .2rem;
 }
 
@@ -143,7 +140,6 @@ h3 {
 .col-descriptions {
 
     font-family: "Lato", sans-serif;
-    font-size: 1rem;
     text-align: justify;
     text-justify: auto;
 }
@@ -285,5 +281,9 @@ footer .fab {
 
     .second-col {
         margin-left: 4rem;
+    }
+
+    .col-descriptions{
+        font-size: 1.2rem;
     }
 }

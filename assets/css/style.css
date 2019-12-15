@@ -336,6 +336,7 @@ footer .fab {
 
 .navbar-brand img {
     height: 4rem;
+    /* from https://stackoverflow.com/questions/3186688/drop-shadow-for-png-image-in-css */
     -webkit-filter: drop-shadow(2px 2px 2px #222);
     filter: drop-shadow(2px 2px 2px #222);
 }

@@ -336,6 +336,8 @@ footer .fab {
 
 .navbar-brand img {
     height: 4rem;
+    -webkit-filter: drop-shadow(2px 2px 2px #222);
+    filter: drop-shadow(2px 2px 2px #222);
 }
 
 .hero-image {

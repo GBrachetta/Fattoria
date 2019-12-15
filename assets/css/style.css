@@ -203,7 +203,9 @@ h3 {
 }
 
 /* TEST */
-
+.card-header{
+    -webkit-appearance: none;
+}
 
 /* END TEST*/
 

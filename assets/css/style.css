@@ -126,6 +126,10 @@ input:required:invalid {
     border-color: #c00000;
 }
 
+.card{
+    background-color: rgb(253, 250, 238);
+}
+
 /***************************** FONTS */
 
 body {
@@ -182,7 +186,7 @@ h3 {
 .card-header p {
     font-family: "Lato", sans-serif;
     text-transform: uppercase;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 400;
     text-decoration: none;
     margin-bottom: 0;
@@ -195,7 +199,8 @@ h3 {
 }
 
 .card-header p:hover {
-    color: rgb(30, 187, 163);}
+    color: rgb(30, 187, 163);
+}
 
 /* TEST */
 
@@ -360,5 +365,9 @@ footer .fab {
 
     .col-descriptions {
         font-size: 1.2rem;
+    }
+
+    .card-header p {
+        font-size: 1.5rem;
     }
 }

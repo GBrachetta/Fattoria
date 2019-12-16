@@ -1,115 +1,279 @@
-@import url('https://fonts.googleapis.com/css?family=Josefin+Slab:300,400,600,700|Lato:300,400,700,900|Sacramento&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Josefin+Slab:300,400,600,700|Lato:300,400,700,900|Sacramento&display=swap);
 
-/***************************** COLORS */
-
-body {
-    background-color: #fcfaf8;
-    color: rgb(37, 37, 37);
-}
-
-.navbar {
-    background: rgb(122, 54, 54);
-}
-
-#navbarResponsive .active a {
-    color: rgb(30, 187, 163);
+#navbarResponsive .active a,
+#navbarResponsive li a:hover,
+footer .fab:hover {
+    color: #1ebba3;
 }
 
 #navbarResponsive li a {
+    -moz-transition: all .35s ease-in-out;
+    -o-transition: all .35s ease-in-out;
+    -webkit-transition: all .35s ease-in-out;
     color: #c8d8d6;
-    text-shadow: 0.125rem 0.125rem rgba(0, 0, 0, 0.5);
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+    text-shadow: .125rem .125rem rgba(0, 0, 0, 0.5);
+    transition: all .35s ease-in-out;
 }
 
-#navbarResponsive li a:hover {
-    color: rgb(30, 187, 163);
+.accordion-titles {
+    color: #4e4e4e;
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-bottom: 0;
+    text-decoration: none;
+    text-shadow: .125rem .125rem rgba(0, 0, 0, 0.1);
+    text-transform: uppercase;
 }
 
-.section-headers {
+.blockquote {
+    font-size: .9rem;
+    font-weight: 400;
+}
+
+.btn-back {
+    -moz-transition: all .35s ease-in-out;
+    -o-transition: all .35s ease-in-out;
+    -webkit-transition: all .35s ease-in-out;
+    background-color: #ddd8d4;
+    border: 0;
+    border-radius: .25rem;
+    color: #8b4513;
+    text-transform: uppercase;
+    transition: all .35s ease-in-out;
+}
+
+.btn-info {
+    -moz-transition: all .35s ease-in-out;
+    -o-transition: all .35s ease-in-out;
+    -webkit-transition: all .35s ease-in-out;
+    background-color: #8f4e12;
+    border: 0;
+    border-radius: .25rem;
+    color: #fafafa;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    transition: all .35s ease-in-out;
+}
+
+.btn-info:hover,
+.btn-back:hover {
+    background-color: #ebe1c3;
+    color: #8b4513;
+}
+
+.card {
+    background-color: #fcfaf8;
+}
+
+.card-body p {
+    text-align: justify;
+}
+
+.card-header {
+    -moz-transition: all .35s ease-in-out;
+    -o-transition: all .35s ease-in-out;
+    -webkit-appearance: none;
+    -webkit-transition: all .35s ease-in-out;
+    background-color: #fafafa;
+    cursor: pointer;
+    transition: all .35s ease-in-out;
+}
+
+.card-header .btn-link {
+    text-decoration: none;
+}
+
+.card-header:hover {
+    background-color: rgba(173, 92, 59, .4);
+}
+
+.col-descriptions {
+    text-align: justify;
+    text-justify: auto;
+}
+
+.descriptions {
+    margin: 1rem 0;
+}
+
+.first-rows {
     color: #000;
-}
-
-.hero-overlay {
-    background: #000;
-    background: rgba(0, 0, 0, 0.4);
-}
-
-footer .fab {
-    color: #c8d8d6;
-    text-shadow: 0.125rem 0.125rem rgba(0, 0, 0, 0.5);
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
-
-footer .fab:hover {
-    color: rgb(30, 187, 163);
-}
-
-.footer-top {
-    background-color: rgb(122, 54, 54);
+    padding-top: 6rem;
 }
 
 .footer-copyright {
-    background-color: rgb(143, 78, 18);
+    background-color: #8f4e12;
     color: #c8d8d6;
+    font-size: .9rem;
+    font-weight: 300;
+    text-shadow: .125rem .125rem rgba(0, 0, 0, 0.5);
 }
 
-.text-footer {
-    text-shadow: 0.125rem 0.125rem rgba(0, 0, 0, 0.5);
-    color: #c8d8d6;
+.footer-copyright p,
+.footer-social {
+    margin: 0;
+}
+
+.footer-text-cont {
+    margin-top: 0;
+    padding: 0;
+}
+
+.footer-top {
+    background-color: #7a3636;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0;
+}
+
+/* Use of "linear-gradient" for overlay from Stackoverflow.com */
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../images/colle_2.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+/* This overlay learned from Anna Greaves' MS1, eventually adapted to this project */
+.hero-overlay {
+    background: rgba(0, 0, 0, 0.4);
+    left: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 25%;
+    width: 100%;
+}
+
+.map-responsive {
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 50%;
+    position: relative;
+}
+
+.map-responsive iframe {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.navbar {
+    background: #7a3636;
+    font-weight: 700;
+    letter-spacing: .2rem;
+    text-transform: uppercase;
+}
+
+/* from https://stackoverflow.com/questions/3186688/drop-shadow-for-png-image-in-css */
+.navbar-brand img {
+    -webkit-filter: drop-shadow(.125rem .125rem .125rem #222);
+    filter: drop-shadow(.125rem .125rem .125rem #222);
+    height: 4rem;
 }
 
 .overlay-text {
     color: #fafafa;
 }
 
-.first-rows {
+.price {
+    background-color: #ddd8d4;
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding: 2rem;
+    text-transform: uppercase;
+}
+
+.second-home-lg {
+    font-family: "Josefin Slab", sans-serif;
+    font-size: 1.9rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.second-home-sm {
+    font-family: "Josefin Slab", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.section-headers {
     color: #000;
 }
 
-.btn-info {
-    text-transform: uppercase;
-    font-size: 1.2rem;
-    background-color: rgb(143, 78, 18);
-    color: #fafafa;
-    border: 0;
-    border-radius: 0.25rem;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+.section-titles {
+    color: #4e4e4e;
+    font-family: Sacramento, cursive;
+    font-size: 3rem;
+    margin-top: 2rem;
+    text-shadow: .125rem .125rem rgba(0, 0, 0, 0.1);
 }
 
-.btn-info:hover {
-    background-color: rgb(235, 225, 195);
-    color: rgb(139, 69, 19);
+.small {
+    color: #252525;
+    font-size: 100%;
+    font-weight: 400;
 }
 
-.btn-back {
-    text-transform: uppercase;
-    background-color: rgb(221, 216, 212);
-    color: rgb(139, 69, 19);
-    border: 0;
-    border-radius: 0.25rem;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+.text-footer {
+    color: #c8d8d6;
+    letter-spacing: .1rem;
+    margin: 0;
+    text-shadow: .125rem .125rem rgba(0, 0, 0, 0.5);
 }
 
-.btn-back:hover {
-    background-color: rgb(235, 225, 195);
-    color: rgb(139, 69, 19);
+.video {
+    border-style: none;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
 }
 
-.price {
-    padding: 2rem;
-    background-color: rgb(221, 216, 212);
+/* VIDEO SECTION'S STYLING LEARNED FROM ANNA GREAVES' MS1 CODE */
+.video-wrapper {
+    padding: 56.25% 0 0;
+    position: relative;
+}
+
+.welcome-lg {
+    font-family: Sacramento, cursive;
+    font-size: 6rem;
+    text-shadow: .125rem .125rem rgba(0, 0, 0, 0.5);
+}
+
+.welcome-sm {
+    font-family: Sacramento, cursive;
+    font-size: 4rem;
+    text-shadow: .125rem .125rem rgba(0, 0, 0, 0.5);
+}
+
+body {
+    background-color: #fcfaf8;
+    color: #252525;
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+    margin: 0;
+    overflow-x: hidden;
+    padding: 0;
+}
+
+footer .fab {
+    -moz-transition: all .35s ease-in-out;
+    -o-transition: all .35s ease-in-out;
+    -webkit-transition: all .35s ease-in-out;
+    color: #c8d8d6;
+    font-size: 2.5rem;
+    margin: 2rem 1rem 0;
+    text-shadow: .125rem .125rem rgba(0, 0, 0, 0.5);
+    transition: all .35s ease-in-out;
 }
 
 input {
@@ -120,261 +284,10 @@ input:required:invalid {
     border-color: #c00000;
 }
 
-.card {
-    background-color: #fcfaf8;
-}
-
-/***************************** FONTS */
-
-body {
-    font-family: "Lato", sans-serif;
-    font-weight: 300;
-}
-
-.welcome-sm{
-    font-family: "Sacramento", cursive;
-    font-size: 4rem;
-    text-shadow: 0.125rem 0.125rem rgba(0, 0, 0, 0.5);
-}
-
-.welcome-lg{
-    font-family: "Sacramento", cursive;
-    font-size: 6rem;
-    text-shadow: 0.125rem 0.125rem rgba(0, 0, 0, 0.5);
-}
-
-.second-home-sm{
-    font-family: "Josefin Slab", sans-serif;
-    font-size: 1.2rem;
-    font-weight: 400;
-    text-transform: uppercase;
-}
-
-.second-home-lg{
-    font-family: "Josefin Slab", sans-serif;
-    font-size: 1.9rem;
-    font-weight: 400;
-    text-transform: uppercase;
-}
-
-.navbar {
-    text-transform: uppercase;
-    font-weight: 700;
-    letter-spacing: .2rem;
-}
-
-.section-titles{
-    font-family: "Sacramento", cursive;
-    font-size: 3rem;
-    color: rgb(78, 78, 78);
-    text-shadow: 0.125rem 0.125rem rgba(0, 0, 0, 0.1);
-}
-
-.blockquote {
-    font-size: .9rem;
-    font-weight: 400;
-}
-
-.small {
-    font-size: 100%;
-    font-weight: 400;
-    color: rgb(37, 37, 37);
-}
-
-.col-descriptions {
-
-    font-family: "Lato", sans-serif;
-    text-align: justify;
-    text-justify: auto;
-}
-
-/* Accordion */
-
-.accordion-titles {
-    font-family: "Lato", sans-serif;
-    text-transform: uppercase;
-    font-size: 1.4rem;
-    font-weight: 400;
-    text-decoration: none;
-    margin-bottom: 0;
-    color: rgb(78, 78, 78);
-    text-shadow: 0.125rem 0.125rem rgba(0, 0, 0, 0.1);
-}
-
-.card-header .btn-link {
-    text-decoration: none;
-}
-
-.card-header {
-    cursor: pointer;
-    -webkit-appearance: none;
-    background-color: #fafafa;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
-
-.card-header:hover {
-    background-color: rgba(173, 92, 59, .4);
-}
-
-.card-body p {
-    text-align: justify;
-}
-
-footer .fab {
-    font-size: 2.5rem;
-}
-
-.text-footer {
-    letter-spacing: 0.1rem;
-}
-
-.footer-copyright {
-    text-shadow: 0.125rem 0.125rem rgba(0, 0, 0, 0.5);
-    font-size: .9rem;
-    font-weight: 300;
-}
-
-.price {
-    font-size: 1.4rem;
-    font-weight: 700;
-    text-transform: uppercase;
-}
-
-/***************************** POSITIONING, PADDING AND MARGIN */
-
-body {
-    overflow-x: hidden;
-    padding: 0;
-    margin: 0;
-}
-
-/* This overlay learned from Anna Greaves' MS1, eventually adapted to this project */
-.hero-overlay {
-    position: absolute;
-    top: 25%;
-    left: 0;
-    right: 0;
-    width: 100%;
-    text-align: center;
-}
-
-.first-rows {
-    padding-top: 6rem;
-}
-
-footer .fab {
-    margin: 2rem 1rem 0 1rem;
-}
-
-.footer-copyright p {
-    margin: 0;
-}
-
-.footer-top {
-    margin-top: 0;
-    margin-bottom: 0;
-    padding: 0;
-}
-
-.footer-text-cont {
-    margin-top: 0;
-    padding: 0;
-}
-
-.text-footer {
-    margin: 0;
-}
-
-.footer-social {
-    margin: 0;
-}
-
-.descriptions {
-    margin: 1rem 0 1rem 0;
-}
-
-.map-responsive {
-    overflow: hidden;
-    padding-bottom: 50%;
-    position: relative;
-    height: 0;
-}
-
-.map-responsive iframe {
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-}
-
-.section-titles {
-    margin-top: 2rem;
-}
-
-/* VIDEO SECTION'S STYLING LEARNED FROM ANNA GREAVES' MS1 CODE */
-.video-wrapper {
-    padding: 56.25% 0 0 0;
-    position: relative;
-}
-
-.video {
-    position: absolute;
-    border-style: none;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-}
-
-/***************************** IMAGES */
-
-.navbar-brand img {
-    height: 4rem;
-    /* from https://stackoverflow.com/questions/3186688/drop-shadow-for-png-image-in-css */
-    -webkit-filter: drop-shadow(0.125rem 0.125rem 0.125rem #222);
-    filter: drop-shadow(0.125rem 0.125rem 0.125rem #222);
-}
-
-.hero-image {
-    /* Use of "linear-gradient" for overlay from Stackoverflow.com */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/colle_2.JPG");
-    height: 100vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-
 /***************************** MEDIA QUERIES */
 @media (min-width: 768px) {
-    body {
-        font-size: 1.2rem;
-    }
-
-    .footer-text-cont {
-        padding-left: 2rem;
-    }
-
-    footer .fab {
-        margin-top: 1rem;
-    }
-
-    .navbar {
-        font-size: 1.2rem;
-        letter-spacing: .2rem;
-    }
-
-    .footer-copyright {
-        font-size: 1.1rem;
-    }
-
-    .second-col {
-        margin-left: 2rem;
+    .card-header p {
+        font-size: 1.5rem;
     }
 
     .col-descriptions {
@@ -382,8 +295,29 @@ footer .fab {
         margin-bottom: 0;
     }
 
-    .card-header p {
-        font-size: 1.5rem;
+    .footer-copyright {
+        font-size: 1.1rem;
+    }
+
+    .footer-text-cont {
+        padding-left: 2rem;
+    }
+
+    .navbar {
+        font-size: 1.2rem;
+        letter-spacing: .2rem;
+    }
+
+    .second-col {
+        margin-left: 2rem;
+    }
+
+    body {
+        font-size: 1.2rem;
+    }
+
+    footer .fab {
+        margin-top: 1rem;
     }
 }
 

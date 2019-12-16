@@ -1,8 +1,30 @@
 /* TEST AREA */
+/* .francesca-image {
+    background-image: url("../images/francesca.png");
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+} */
 
+/* .swimming-image {
+    background-image: url("../images/spaces_0.jpg");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
 
-
-
+.dinning-image {
+    background-image: url("../images/spaces_1.jpg");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+} */
 
 /* END TEST AREA */
 @import url('https://fonts.googleapis.com/css?family=Josefin+Slab:300,400,600,700|Lato:300,400,700,900|Sacramento&display=swap');

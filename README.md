@@ -162,7 +162,7 @@ For this project some research has been carried on. The participants gave the fo
 
 ![Color Palette](./assets/ux/palette.png)
 
-The color palette used include different shades of typically Tuscan colors (also know as Siena colors) plus the addition of a complementary shade of turquoise for active menu items and active social media icons.
+The color palette used include different shades of typically Tuscan colors (also known as Siena colors) plus the addition of a complementary shade of turquoise for active menu items and active social media icons.
 
 # Features to implement in the future
 
@@ -202,7 +202,7 @@ The color palette used include different shades of typically Tuscan colors (also
 
 # Testing
 
-(To be completed)
+(To be completed shortly)
 
 # Deployment
 
@@ -223,7 +223,7 @@ The website is hosted on GitHub pages and will (for the time being) update as ne
 - All credit has been mentioned in the relevant sections of the code. Special mention to:
     - Carousel with fade effect from <a href="mdbootstrap.com">Mdbootstrap</a>.
     - Logo drop shadow from <a href="https://stackoverflow.com/questions/3186688/drop-shadow-for-png-image-in-css">Stack Overflow</a>.
-    - Hero image and video text overlay from Anna Greaves' <a href="https://github.com/AJGreaves/portrait-artist">Portrait Artist, Mileston 1, Code Institute</a>.
+    - Text overlay for Hero image and video adapted for this site from Anna Greaves' <a href="https://github.com/AJGreaves/portrait-artist">Portrait Artist, Milestone 1, Code Institute</a>.
 
 ## Acknowledgements
 - To all members of Code Institute active on Slack and ready to help on everything at random times. Special mentions of unvaluable help at this stage: Simen Daehlin, Anna Greaves, Alicja Malinowska, Marie-Pia Kuti, Anthony O'Brien and all mentors, tutors, alumni and students always ready and generous to help.

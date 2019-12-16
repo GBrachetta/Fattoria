@@ -160,9 +160,9 @@ For this project some research has been carried on. The participants gave the fo
 
 ## Color Palette
 
-![Color Palette]("./assets/ux/palette.png")
+![Color Palette](./assets/ux/palette.png)
 
-The color palette used include different shades of typically Tuscan colors (also know as Siena Colors) plus the addition of a complementary shade of turquoise for active menu items and active social media icons.
+The color palette used include different shades of typically Tuscan colors (also know as Siena colors) plus the addition of a complementary shade of turquoise for active menu items and active social media icons.
 
 # Features to implement in the future
 

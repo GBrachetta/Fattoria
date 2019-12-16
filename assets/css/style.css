@@ -83,6 +83,7 @@ footer .fab:hover {
 }
 
 .card-header:hover {
+    background-color: rgb(187, 131, 110);
     background-color: rgba(173, 92, 59, .4);
 }
 
@@ -137,6 +138,7 @@ footer .fab:hover {
 
 /* This overlay learned from Anna Greaves' MS1, eventually adapted to this project */
 .hero-overlay {
+    background: rgb(163, 163, 163);
     background: rgba(0, 0, 0, 0.4);
     left: 0;
     position: absolute;
@@ -323,17 +325,15 @@ input:required:invalid {
         margin-top: 1rem;
     }
 
-    .rounded-circle{
+    .rounded-circle {
         width: 100;
         height: 100;
     }
 }
 
 @media (min-width: 1024px) {
-    .navbar {
-        font-size: 1.4rem;
-    }
 
+    .navbar,
     .accordion-titles {
         font-size: 1.4rem;
     }

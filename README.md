@@ -121,7 +121,7 @@ For this project some research has been carried on. The participants gave the fo
 - <a href="./assets/ux/1_homepage.png" target=_blank>Homepage</a>
 - <a href="./assets/ux/2_about.png" target=_blank>About</a>
 - <a href="./assets/ux/3_apartments.png" target=_blank>Apartments</a>
-- <a href="./assets/ux/4_individual_apartments.png" target=_blank>Individual apartments</a>
+- <a href="./assets/ux/4_individual_apartment.png" target=_blank>Individual apartments</a>
 - <a href="./assets/ux/5_contact_bookings.png" target=_blank>Contact</a>
 
 # Features Implemented

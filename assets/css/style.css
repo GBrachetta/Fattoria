@@ -343,7 +343,7 @@ footer .fab {
 
 .hero-image {
     /* Use of "linear-gradient" for overlay from Stackoverflow.com */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../assets/images/colle_2.JPG");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/colle_2.JPG");
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;

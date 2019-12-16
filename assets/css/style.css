@@ -17,7 +17,7 @@ body {
 
 #navbarResponsive li a {
     color: #c8d8d6;
-    text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+    text-shadow: 0.125rem 0.125rem rgba(0, 0, 0, 0.5);
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -39,7 +39,7 @@ body {
 
 footer .fab {
     color: #c8d8d6;
-    text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+    text-shadow: 0.125rem 0.125rem rgba(0, 0, 0, 0.5);
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -60,7 +60,7 @@ footer .fab:hover {
 }
 
 .text-footer {
-    text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+    text-shadow: 0.125rem 0.125rem rgba(0, 0, 0, 0.5);
     color: #c8d8d6;
 }
 
@@ -78,7 +78,7 @@ footer .fab:hover {
     background-color: rgb(143, 78, 18);
     color: #fafafa;
     border: 0;
-    border-radius: 4px;
+    border-radius: 0.25rem;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -95,7 +95,7 @@ footer .fab:hover {
     background-color: rgb(221, 216, 212);
     color: rgb(139, 69, 19);
     border: 0;
-    border-radius: 4px;
+    border-radius: 0.25rem;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -110,10 +110,6 @@ footer .fab:hover {
 .price {
     padding: 2rem;
     background-color: rgb(221, 216, 212);
-}
-
-h3 {
-    text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
 }
 
 input {
@@ -138,13 +134,13 @@ body {
 .welcome-sm{
     font-family: "Sacramento", cursive;
     font-size: 4rem;
-    text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+    text-shadow: 0.125rem 0.125rem rgba(0, 0, 0, 0.5);
 }
 
 .welcome-lg{
     font-family: "Sacramento", cursive;
     font-size: 6rem;
-    text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+    text-shadow: 0.125rem 0.125rem rgba(0, 0, 0, 0.5);
 }
 
 .second-home-sm{
@@ -171,7 +167,7 @@ body {
     font-family: "Sacramento", cursive;
     font-size: 3rem;
     color: rgb(78, 78, 78);
-    text-shadow: 2px 2px rgba(0, 0, 0, 0.1);
+    text-shadow: 0.125rem 0.125rem rgba(0, 0, 0, 0.1);
 }
 
 .blockquote {
@@ -202,7 +198,7 @@ body {
     text-decoration: none;
     margin-bottom: 0;
     color: rgb(78, 78, 78);
-    text-shadow: 2px 2px rgba(0, 0, 0, 0.1);
+    text-shadow: 0.125rem 0.125rem rgba(0, 0, 0, 0.1);
 }
 
 .card-header .btn-link {
@@ -232,11 +228,11 @@ footer .fab {
 }
 
 .text-footer {
-    letter-spacing: 1.5px;
+    letter-spacing: 0.1rem;
 }
 
 .footer-copyright {
-    text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+    text-shadow: 0.125rem 0.125rem rgba(0, 0, 0, 0.5);
     font-size: .9rem;
     font-weight: 300;
 }
@@ -266,7 +262,7 @@ body {
 }
 
 .first-rows {
-    padding-top: 100px;
+    padding-top: 6rem;
 }
 
 footer .fab {
@@ -340,8 +336,8 @@ footer .fab {
 .navbar-brand img {
     height: 4rem;
     /* from https://stackoverflow.com/questions/3186688/drop-shadow-for-png-image-in-css */
-    -webkit-filter: drop-shadow(2px 2px 2px #222);
-    filter: drop-shadow(2px 2px 2px #222);
+    -webkit-filter: drop-shadow(0.125rem 0.125rem 0.125rem #222);
+    filter: drop-shadow(0.125rem 0.125rem 0.125rem #222);
 }
 
 .hero-image {

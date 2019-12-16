@@ -199,6 +199,8 @@ The color palette used include different shades of typically Tuscan colors (also
     - For linting (flagging) inappropiate constructs in the CSS file.
 - <a href="https://www.google.com/chrome/">Google Chrome Developer Tools</a>
     - For permanently checking, testing on the fly, identifying issues and controlling device compatibility.
+- <a href="https://www.adobe.com/products/illustrator.html">Adobe Illustrator</a>
+    - To create the logo image.
 
 # Testing
 
@@ -215,9 +217,10 @@ The website is hosted on GitHub pages and will (for the time being) update as ne
 - All aerial photos by the author.
 - Apartments images used with permission by the owner of Fattoria di Collemezzano, Francesca Russo.
 - Some descriptive text originally hosted in current website of Fattoria di Collemezzano, used with permission by the owner, Francesca Russo.
+- The logo designed and created by the author on Adobe Illustrator. It's an "F" using the font of the main headers, contained inside an object shaped in the form of a "raviolo", many of which (never too many!) make one of the most traditional Italian dishes: Ravioli.
 
 ## Content
-- All content created by the author, except the ones mentioned in the previous paragraph.
+- All content created by the author, except the ones otherwise mentioned in the previous paragraph.
 
 ## Code
 - All credit has been mentioned in the relevant sections of the code. Special mention to:

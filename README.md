@@ -1,7 +1,7 @@
 
 <H1 align="center"><b>FATTORIA DI COLLEMEZZANO</b> </h1>
 
-<p align="center"> This site is live in <a href="#"> GitHub Pages </a></p>
+<p align="center"> This site is live in <a href="https://gbrachetta.github.io/MS1-Fattoria/"> GitHub Pages </a></p>
 
 This is the website of Fattoria di Collemezzano, an agroturismo located in the heart of Tuscany, Italy.
 Agriturismos are typically Italian. They are "farm-stays" and have been (at least until recently) Italy's best-kept accomodation secret. They provide not just accomodation but a way to experience Italian countryside.
@@ -217,5 +217,4 @@ For this project some research has been carried on. The participants gave the fo
 
 ## Acknowledgements
 - To all members of Code Institute active on Slack and ready to help on everything at random times. Special mentions of unvaluable help at this stage: Simen Daehlin, Anna Greaves, Alicja Malinowska, Marie-Pia Kuti, Anthony O'Brien and all mentors, tutors, alumni and students always ready and generous to help.
-- To my mentor, Spencer Barriball.
 - To Rut for her constant patience and support.

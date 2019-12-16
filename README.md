@@ -217,6 +217,7 @@ The website is hosted on GitHub pages and will (for the time being) update as ne
 - All aerial photos by the author.
 - Apartments images used with permission by the owner of Fattoria di Collemezzano, Francesca Russo.
 - Some descriptive text originally hosted in current website of Fattoria di Collemezzano, used with permission by the owner, Francesca Russo.
+- The images in the accordion in index.html sourced from <a href="https://www.google.com/imghp?hl=en">Google Images</a>.
 - The logo designed and created by the author on Adobe Illustrator. It's an "F" using the font of the main headers, contained inside an object shaped in the form of a "raviolo", many of which (never too many!) make one of the most traditional Italian dishes: Ravioli.
 
 ## Content

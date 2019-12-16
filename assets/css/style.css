@@ -426,11 +426,12 @@ footer .fab {
     }
 
     .second-col {
-        margin-left: 4rem;
+        margin-left: 2rem;
     }
 
     .col-descriptions {
         font-size: 1.2rem;
+        margin-bottom: 0;
     }
 
     .card-header p {

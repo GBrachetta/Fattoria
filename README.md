@@ -1,7 +1,7 @@
 
 <H1 align="center"><b>FATTORIA DI COLLEMEZZANO</b> </h1>
 
-<p align="center"> This site is live in <a href="http://www.test.com"> GitHub Pages </a></p>
+<p align="center"> This site is live in <a href="#"> GitHub Pages </a></p>
 
 This is the website of Fattoria di Collemezzano, an agroturismo located in the heart of Tuscany, Italy.
 Agriturismos are typically Italian. They are "farm-stays" and have been (at least until recently) Italy's best-kept accomodation secret. They provide not just accomodation but a way to experience Italian countryside.
@@ -128,22 +128,91 @@ For this project some research has been carried on. The participants gave the fo
 
 ## Common features
 - Each page contains a responsive navigation bar with logo on the top-left. For mobile-sized devices a button on the top-right expands a menu with links to the different pages on the website. On larger devices the expanded menu is shown instead.
-- Every page contains a footer with contact information on the left and links to social media on the right by way of social media icons. There's copyright information beneath.
+- Every page contains a footer with contact information on the left and links to social media on the right by way of social media icons (the owner currently only uses Facebook, links to Twitter and Instagram land on their homepages). 
+- There's copyright information beneath.
 
 ## Homepage
 
+- On mobile devices there's a hero image with overlay text covering the surface of the device.
+- On larger displays the hero static image is replaced by a fluid video hosted externally, with the same overlay as the mobile version. (The static image takes over on mobile devices to save user's data in case they are browsing using mobile networks).
+- Immediately beneath there's a carousel with slides and general descriptive text of what Fattoria di Collemezzano has to offer.
+- Underneath there's an interactive map with the location of the resort and brief descriptive text.
+- Beneath this there's a vertical accordion with different titles. Each tab has a photo and a longer description. All of them are initially collapsed on loading. This has been done to avoid clutter, since the information provided here is more extensive regarding points of interest around the Fattoria (art and culture, beaches, thermal waters, sport activities).
+
 ## About
+
+- The first visible content is a photo of the owner and a personal message.
+- Beneath there are photos of the different facilities to be encountered in the Fattoria, accompanied by descriptive text.
+- Underneath there's a section with reviews from previous customers.
 
 ## Apartments
 
+- The four small sections of this page display each a single image of each of the apartments offered, brief descriptive text and a call to action button leading to find out more information about each of the units.
+
 ## Individual Apartments
+
+- Each of the four Individual Apartments page displays a carousel with several photos of the apartment and more extensive descriptions.
+- There's a clear indication of the price of the apartment and a call to action button to request more information or proceed with a booking. This button leads to the form contained in the Contact page.
 
 ## Contact
 
+- The contact page contains a form with validation with several options to request information or make a booking, including start and end date of the desired rental and other options.
+
+# Features to implement in the future
+
+- Fully functional form with captcha (Javascript required)
+- Reviews linked to Tripadvisor or similar (More technology needed)
+- Email sent back acknowledging request for booking or information
+- Additional languages pages (requires professional translator)
+
 # Technologies Used
+
+- HTML
+    - Hypertext Markup Language
+- CSS
+    - Cascading Style Sheet.
+- <a href="https://github.com/AJGreaves/portrait-artist">Bootstrap CDN</a>
+    - For page structure, responsive layout and basic styling.
+- <a href="https://fontawesome.com/">Font Awesome</a>
+    - For icons used for social network.
+- <a href="https://fonts.google.com/">Google Fonts</a>
+    - For the fonts used on this website.
+- <a href="https://vimeo.com/">Vimeo</a>
+    - For hosting the video.
+- <a href="https://jquery.com/">jQuery</a>
+    - For the functioning of the responsive navbar through Javascript.
+- <a href="https://popper.js.org/">Popper.js</a>
+    - For the functioning of the responsive navbar through Javascript.
+- <a href="https://autoprefixer.github.io/">AutoPrefixer</a>
+    - For checking browser compatibility of the CSS code.
+- <a href="https://validator.w3.org/">W3C Markup Validation Service</a>
+    - For validating all HTML files.
+- <a href="https://jigsaw.w3.org/css-validator/">W3C CSS Validation Service</a>
+    - For validating the style.css file.
+- <a href="http://csslint.net/">CSS Lint</a>
+    - For linting (flagging) inappropiate constructs in the CSS file.
+- <a href="https://www.google.com/chrome/">Google Chrome Developer Tools</a>
+    - For permanently checking, testing on the fly, identifying issues and controlling device compatibility.
 
 # Testing
 
 # Deployment
 
 # Credits and Acknowledgements 
+
+## Media
+- Video shot and edited by the author.
+- All aerial photos by the author.
+- Apartments images used with permission by the owner of Fattoria di Collemezzano, Francesca Russo.
+- Some descriptive text originally hosted in current website of Fattoria di Collemezzano, used with permission by the owner, Francesca Russo.
+
+## Content
+- All content created by the author, except the ones mentioned in the previous paragraph.
+
+## Code
+- All credit has been mentioned in the relevant sections of the code. Special mention to:
+    - Carousel with fade effect from <a href="mdbootstrap.com">Mdbootstrap</a>.
+    - Logo drop shadow from <a href="https://stackoverflow.com/questions/3186688/drop-shadow-for-png-image-in-css">Stack Overflow</a>.
+    - Hero image and video text overlay from Anna Greaves' <a href="https://github.com/AJGreaves/portrait-artist">Portrait Artist, Mileston 1, Code Institute</a>.
+
+

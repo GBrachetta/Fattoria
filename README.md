@@ -158,6 +158,12 @@ For this project some research has been carried on. The participants gave the fo
 
 - The contact page contains a form with validation with several options to request information or make a booking, including start and end date of the desired rental and other options.
 
+## Color Palette
+
+![Color Palette]("assets/ux/palette.png")
+
+The color palette used include different shades of typically Tuscan colors (also know as Siena Colors) plus the addition of a complementary shade of turquoise for active menu items and active social media icons.
+
 # Features to implement in the future
 
 - Fully functional form with captcha (Javascript required)
@@ -196,7 +202,11 @@ For this project some research has been carried on. The participants gave the fo
 
 # Testing
 
+(To be completed)
+
 # Deployment
+
+The website is hosted on GitHub pages and will (for the time being) update as new commits occur.
 
 # Credits and Acknowledgements 
 

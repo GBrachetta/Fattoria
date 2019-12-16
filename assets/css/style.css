@@ -1,35 +1,4 @@
-/* TEST AREA */
-/* .francesca-image {
-    background-image: url("../images/francesca.png");
-    height: 400px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-} */
-
-/* .swimming-image {
-    background-image: url("../images/spaces_0.jpg");
-    height: 500px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-
-.dinning-image {
-    background-image: url("../images/spaces_1.jpg");
-    height: 500px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-} */
-
-
-/* END TEST AREA */
 @import url('https://fonts.googleapis.com/css?family=Josefin+Slab:300,400,600,700|Lato:300,400,700,900|Sacramento&display=swap');
-
 
 /***************************** COLORS */
 
@@ -60,8 +29,6 @@ body {
 }
 
 .section-headers {
-    /* background-color: rgb(77, 77, 16);
-    background-color: rgba(77, 77, 16, .2); */
     color: #000;
 }
 
@@ -102,8 +69,6 @@ footer .fab:hover {
 }
 
 .first-rows {
-    /* background-color: rgb(77, 77, 16);
-    background-color: rgba(77, 77, 16, .2); */
     color: #000;
 }
 
@@ -111,11 +76,9 @@ footer .fab:hover {
     text-transform: uppercase;
     font-size: 1.2rem;
     background-color: rgb(143, 78, 18);
-    /* background-color: rgb(77, 77, 16); */
     color: #fafafa;
     border: 0;
     border-radius: 4px;
-    /* box-shadow: 2px 2px rgba(0, 0, 0, 0.1); */
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -130,11 +93,9 @@ footer .fab:hover {
 .btn-back {
     text-transform: uppercase;
     background-color: rgb(221, 216, 212);
-    /* background-color: rgb(77, 77, 16); */
     color: rgb(139, 69, 19);
     border: 0;
     border-radius: 4px;
-    /* box-shadow: 2px 2px rgba(0, 0, 0, 0.1); */
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -149,16 +110,6 @@ footer .fab:hover {
 .price {
     padding: 2rem;
     background-color: rgb(221, 216, 212);
-    /* background-color: rgb(77, 77, 16);
-    background-color: rgba(77, 77, 16, .2) */
-}
-
-h2 {
-    color: rgb(78, 78, 78);
-}
-
-h2 {
-    text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
 }
 
 h3 {
@@ -175,7 +126,6 @@ input:required:invalid {
 
 .card {
     background-color: #fcfaf8;
-    /* background-color: rgb(253, 250, 238); */
 }
 
 /***************************** FONTS */
@@ -185,19 +135,26 @@ body {
     font-weight: 300;
 }
 
-h1 {
+.welcome-sm{
+    font-family: "Sacramento", cursive;
+    font-size: 4rem;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.welcome-lg{
     font-family: "Sacramento", cursive;
     font-size: 6rem;
     text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
 }
 
-h2 {
-    font-family: "Sacramento", cursive;
-    font-size: 3rem;
-    text-shadow: 2px 2px rgba(0, 0, 0, 0.1);
+.second-home-sm{
+    font-family: "Josefin Slab", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-transform: uppercase;
 }
 
-h3 {
+.second-home-lg{
     font-family: "Josefin Slab", sans-serif;
     font-size: 1.9rem;
     font-weight: 400;
@@ -210,12 +167,19 @@ h3 {
     letter-spacing: .2rem;
 }
 
+.section-titles{
+    font-family: "Sacramento", cursive;
+    font-size: 3rem;
+    color: rgb(78, 78, 78);
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.1);
+}
+
 .blockquote {
     font-size: .9rem;
     font-weight: 400;
 }
 
-.small{
+.small {
     font-size: 100%;
     font-weight: 400;
     color: rgb(37, 37, 37);
@@ -230,14 +194,14 @@ h3 {
 
 /* Accordion */
 
-.accordion-titles{
+.accordion-titles {
     font-family: "Lato", sans-serif;
     text-transform: uppercase;
     font-size: 1.4rem;
     font-weight: 400;
     text-decoration: none;
     margin-bottom: 0;
-    color: rgb(37, 37, 37);
+    color: rgb(78, 78, 78);
     text-shadow: 2px 2px rgba(0, 0, 0, 0.1);
 }
 
@@ -245,31 +209,8 @@ h3 {
     text-decoration: none;
 }
 
-.card-header{
-    cursor: pointer;
-}
-
-/* .card-header p {
-    font-family: "Lato", sans-serif;
-    text-transform: uppercase;
-    font-size: 1.2rem;
-    font-weight: 400;
-    text-decoration: none;
-    margin-bottom: 0;
-    color: rgb(37, 37, 37);
-    text-shadow: 2px 2px rgba(0, 0, 0, 0.1); */
-    /* transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out; */
-/* } */
-
-/* .card-header p:hover {
-    color: rgb(30, 187, 163);
-} */
-
-/* TEST */
 .card-header {
+    cursor: pointer;
     -webkit-appearance: none;
     background-color: #fafafa;
     transition: all 0.35s ease-in-out;
@@ -280,10 +221,7 @@ h3 {
 
 .card-header:hover {
     background-color: rgba(173, 92, 59, .4);
-    /* background-color: rgba(30, 187, 163, .5); */
 }
-
-/* END TEST*/
 
 .card-body p {
     text-align: justify;
@@ -307,7 +245,6 @@ footer .fab {
     font-size: 1.4rem;
     font-weight: 700;
     text-transform: uppercase;
-
 }
 
 /***************************** POSITIONING, PADDING AND MARGIN */
@@ -398,8 +335,6 @@ footer .fab {
     z-index: -1;
 }
 
-/***************************** VIDEO */
-
 /***************************** IMAGES */
 
 .navbar-brand img {
@@ -456,8 +391,8 @@ footer .fab {
     }
 }
 
-@media (min-width: 1024px){
-    .navbar{
+@media (min-width: 1024px) {
+    .navbar {
         font-size: 1.4rem;
     }
 }

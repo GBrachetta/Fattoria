@@ -215,4 +215,7 @@ For this project some research has been carried on. The participants gave the fo
     - Logo drop shadow from <a href="https://stackoverflow.com/questions/3186688/drop-shadow-for-png-image-in-css">Stack Overflow</a>.
     - Hero image and video text overlay from Anna Greaves' <a href="https://github.com/AJGreaves/portrait-artist">Portrait Artist, Mileston 1, Code Institute</a>.
 
-
+## Acknowledgements
+    - To all members of Code Institute active on Slack and ready to help on everything at random times. Special mentions of unvaluable help at this stage: Simen Daehlin, Anna Greaves, Alicja Malinowska, Marie-Pia Kuti, Anthony O'Brien and all mentors, tutors, alumni and students always ready and generous to help.
+    - To my mentor, Spencer Barriball.
+    - To Rut for her constant patience and support.

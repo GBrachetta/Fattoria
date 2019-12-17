@@ -11,7 +11,7 @@ Agriturismos are typically Italian. They are "farm-stays" and have been (at leas
 Fattoria di Collemezzano is an independently-owned estate around Cecina, just in the border between the provinces of Pisa and Livorno in Tuscany.
 
 # <b>UX</b>
-
+## STRATEGY PLANE
 ## To whom is this website addressed
 
 - Turists.
@@ -117,8 +117,8 @@ For this project some research has been carried on. The participants gave the fo
 
 - Create presence
 - Create a network of customers (a happy customer will return and recommend our business)
-
-# Wire frames
+## STRUCTURE AND SKELETON PLANES
+## Wire frames
 
 - <a href="./ux/0_structure.png" target=_blank> Structure</a>
 - <a href="./ux/1_homepage.png" target=_blank>Homepage</a>
@@ -176,12 +176,18 @@ The color palette used include different shades of typically Tuscan colors (also
 
 # Technologies Used
 
+## Language
 - HTML
     - Hypertext Markup Language
 - CSS
     - Cascading Style Sheet.
-- <a href="https://github.com/AJGreaves/portrait-artist">Bootstrap CDN</a>
+
+## Framework
+
+- <a href="https://getbootstrap.com/">Bootstrap</a>
     - For page structure, responsive layout and basic styling.
+
+## Tools
 - <a href="https://fontawesome.com/">Font Awesome</a>
     - For icons used for social network.
 - <a href="https://fonts.google.com/">Google Fonts</a>
@@ -192,16 +198,6 @@ The color palette used include different shades of typically Tuscan colors (also
     - For the functioning of the responsive navbar through Javascript.
 - <a href="https://popper.js.org/">Popper.js</a>
     - For the functioning of the responsive navbar through Javascript.
-- <a href="https://autoprefixer.github.io/">AutoPrefixer</a>
-    - For checking browser compatibility of the CSS code.
-- <a href="https://validator.w3.org/">W3C Markup Validation Service</a>
-    - For validating all HTML files.
-- <a href="https://jigsaw.w3.org/css-validator/">W3C CSS Validation Service</a>
-    - For validating the style.css file.
-- <a href="http://csslint.net/">CSS Lint</a>
-    - For linting (flagging) inappropiate constructs in the CSS file.
-- <a href="https://www.google.com/chrome/">Google Chrome Developer Tools</a>
-    - For permanently checking, testing on the fly, identifying issues and controlling device compatibility.
 - <a href="https://www.adobe.com/products/illustrator.html">Adobe Illustrator</a>
     - To create the logo image.
 
@@ -222,7 +218,7 @@ The method used to deploy this website was as follows:
 
 This project can be ran locally by going to this <a href="https://github.com/GBrachetta/MS1-Fattoria">Repository link</a> and clicking on the <strong>Clone or Download</strong> button and copying the link provided.
  
-![alt text](./assets/ux/clone.png "Cloning Repo")
+![alt text](./ux/clone.png "Cloning Repo")
 
 In your IDE, open a Terminal window and change to the directory where you want to clone this project and type  `Git clone "your copied link"`.
 
@@ -249,5 +245,5 @@ After pressing Enter the project will be created and cloned locally.
     - Text overlay for Hero image and video adapted for this site from Anna Greaves' <a href="https://github.com/AJGreaves/portrait-artist">Portrait Artist, Milestone 1, Code Institute</a>.
 
 ## Acknowledgements
-- To all members of Code Institute active on Slack and ready to help on everything at random times. Special mentions of unvaluable help at this stage: Simen Daehlin, Anna Greaves, Alicja Malinowska, Marie-Pia Kuti, Anthony O'Brien and all mentors, tutors, alumni and students always ready and generous to help.
+- To all members of Code Institute active on Slack and ready to help on everything at random times. Special mentions of unvaluable help at this stage: <a href="https://github.com/Eventyret">Simen Daehlin</a>, <a hre="https://github.com/AJGreaves">Anna Greaves</a>, <a href="https://github.com/auxfuse">Anthony O'Brien</a> and all mentors, tutors, alumni and students always ready and generous to help.
 - To Rut for her constant patience and support.

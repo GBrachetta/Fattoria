@@ -13,6 +13,10 @@ This website has gone through validation using the following resources
 
 - HTML <a href="https://validator.w3.org/">Validation</a>
 - CSS Validation <a href="https://jigsaw.w3.org/css-validator/">Here</a> and <a href="http://csslint.net/">Here</a>
+- <a href="https://autoprefixer.github.io/">AutoPrefixer</a>
+    - For checking browser compatibility of the CSS code.
+- <a href="https://www.google.com/chrome/">Google Chrome Developer Tools</a>
+    - For permanently checking, testing on the fly, identifying issues and controlling device compatibility.
 
 ## USER STORIES
 

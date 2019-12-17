@@ -1,6 +1,9 @@
 
 <H1 align="center"><b>FATTORIA DI COLLEMEZZANO</b> </h1>
 
+<p align="center">
+  <img width="100" height="100" src="./assets/images/logo.png">
+</p>
 <p align="center"> This site is live in <a href="https://gbrachetta.github.io/MS1-Fattoria/"> GitHub Pages </a></p>
 
 This is the website of Fattoria di Collemezzano, an agroturismo located in the heart of Tuscany, Italy.
@@ -204,7 +207,7 @@ The color palette used include different shades of typically Tuscan colors (also
 
 # Testing
 
-(To be completed shortly)
+Please refer to the dedicated <a href="TESTING.md">Testing Document</a>
 
 # Deployment
 

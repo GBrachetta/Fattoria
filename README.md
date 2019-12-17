@@ -120,12 +120,12 @@ For this project some research has been carried on. The participants gave the fo
 
 # Wire frames
 
-- <a href="./assets/ux/0_structure.png" target=_blank> Structure</a>
-- <a href="./assets/ux/1_homepage.png" target=_blank>Homepage</a>
-- <a href="./assets/ux/2_about.png" target=_blank>About</a>
-- <a href="./assets/ux/3_apartments.png" target=_blank>Apartments</a>
-- <a href="./assets/ux/4_individual_apartment.png" target=_blank>Individual apartments</a>
-- <a href="./assets/ux/5_contact_bookings.png" target=_blank>Contact</a>
+- <a href="./ux/0_structure.png" target=_blank> Structure</a>
+- <a href="./ux/1_homepage.png" target=_blank>Homepage</a>
+- <a href="./ux/2_about.png" target=_blank>About</a>
+- <a href="./ux/3_apartments.png" target=_blank>Apartments</a>
+- <a href="./ux/4_individual_apartment.png" target=_blank>Individual apartments</a>
+- <a href="./ux/5_contact_bookings.png" target=_blank>Contact</a>
 
 # Features Implemented
 
@@ -163,7 +163,7 @@ For this project some research has been carried on. The participants gave the fo
 
 ## Color Palette
 
-![Color Palette](./assets/ux/palette.png)
+![Color Palette](./ux/palette.png)
 
 The color palette used include different shades of typically Tuscan colors (also known as Siena colors) plus the addition of a complementary shade of turquoise for active menu items and active social media icons.
 

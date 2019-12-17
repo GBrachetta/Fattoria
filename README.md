@@ -213,6 +213,22 @@ Please refer to the dedicated <a href="TESTING.md">Testing Document</a>
 
 The website is hosted on GitHub pages and will (for the time being) update as new commits occur.
 
+The method used to deploy this website was as follows:
+1. In GitHub, navigated to my repository.
+2. Under my repository, clicked "Settings".
+3. Under the "GitHub Pages" section, used the Source drop-down menu and selected a publishing source, in this case <strong> Master Branch </strong>.
+4. The website was immediately published and a green tab appeared with a link to the live website.
+5. The link obtained is the one displaying at the top of this document.
+
+This project can be ran locally by going to this <a href="https://github.com/GBrachetta/MS1-Fattoria">Repository link</a> and clicking on the <strong>Clone or Download</strong> button and copying the link provided.
+ 
+![alt text](./assets/ux/clone.png "Cloning Repo")
+
+In your IDE, open a Terminal window and change to the directory where you want to clone this project and type  `Git clone "your copied link"`.
+
+After pressing Enter the project will be created and cloned locally.
+
+
 # Credits and Acknowledgements 
 
 ## Media

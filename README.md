@@ -245,5 +245,5 @@ After pressing Enter the project will be created and cloned locally.
     - Text overlay for Hero image and video adapted for this site from Anna Greaves' <a href="https://github.com/AJGreaves/portrait-artist">Portrait Artist, Milestone 1, Code Institute</a>.
 
 ## Acknowledgements
-- To all members of Code Institute active on Slack and ready to help on everything at random times. Special mentions of unvaluable help at this stage: <a href="https://github.com/Eventyret">Simen Daehlin</a>, <a hre="https://github.com/AJGreaves">Anna Greaves</a> and all mentors, tutors, alumni and students always ready and generous to help.
+- To all members of Code Institute active on Slack and ready to help on everything at random times. Special mentions of unvaluable help at this stage: <a href="https://github.com/Eventyret">Simen Daehlin</a>, <a href="https://github.com/AJGreaves">Anna Greaves</a> and all mentors, tutors, alumni and students always ready and generous to help.
 - To Rut for her constant patience and support.

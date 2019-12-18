@@ -231,15 +231,15 @@ After pressing Enter the project will be created and cloned locally.
 # Credits and Acknowledgements 
 
 ## Media
-- Video shot and edited by the author.
-- All aerial photos by the author.
-- Apartments images used with permission by the owner of Fattoria di Collemezzano, Francesca Russo.
+- Video shot and edited by me.
+- All aerial photos taken by me.
+- Apartments images used with permission of the owner of Fattoria di Collemezzano, Francesca Russo.
 - Some descriptive text originally hosted in current website of Fattoria di Collemezzano, used with permission by the owner, Francesca Russo.
 - The images in the accordion in index.html sourced from <a href="https://www.google.com/imghp?hl=en">Google Images</a>.
-- The logo designed and created by the author on Adobe Illustrator. It's an "F" using the font of the main headers, contained inside an object shaped in the form of a "raviolo", many of which (never too many!) make one of the most traditional Italian dishes: Ravioli.
+- The logo designed and created by me on Adobe Illustrator. It's an "F" using the font of the main headers, contained inside an object shaped in the form of a "raviolo", many of which (never too many!) make one of the most traditional Italian dishes: Ravioli.
 
 ## Content
-- All content created by the author, except the ones otherwise mentioned in the previous paragraph.
+- All content created by me, except the ones otherwise mentioned in the previous paragraph.
 
 ## Code
 - All credit has been mentioned in the relevant sections of the code. Special mention to:

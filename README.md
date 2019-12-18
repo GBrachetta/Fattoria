@@ -117,12 +117,12 @@ For this project some research has been carried on. The participants gave the fo
 ## STRUCTURE AND SKELETON PLANES
 ## Wire frames
 
-- <a href="./ux/0_structure.png" target=_blank> Structure</a>
-- <a href="./ux/1_homepage.png" target=_blank>Homepage</a>
-- <a href="./ux/2_about.png" target=_blank>About</a>
-- <a href="./ux/3_apartments.png" target=_blank>Apartments</a>
-- <a href="./ux/4_individual_apartment.png" target=_blank>Individual apartments</a>
-- <a href="./ux/5_contact_bookings.png" target=_blank>Contact</a>
+- <a href="./wireframes/0_structure.png" target=_blank> Structure</a>
+- <a href="./wireframes/1_homepage.png" target=_blank>Homepage</a>
+- <a href="./wireframes/2_about.png" target=_blank>About</a>
+- <a href="./wireframes/3_apartments.png" target=_blank>Apartments</a>
+- <a href="./wireframes/4_individual_apartment.png" target=_blank>Individual apartments</a>
+- <a href="./wireframes/5_contact_bookings.png" target=_blank>Contact</a>
 
 # Features Implemented
 
@@ -160,7 +160,7 @@ For this project some research has been carried on. The participants gave the fo
 
 ## Color Palette
 
-![Color Palette](./ux/palette.png)
+![Color Palette](./readme_imgs/palette.png)
 
 The colour palette used include different shades of typically Tuscan colours (also known as Siena colours) plus the addition of a complementary shade of turquoise for active menu items and active social media icons.
 
@@ -221,7 +221,7 @@ The method used to deploy this website was as follows:
 
 This project can be ran locally by going to this <a href="https://github.com/GBrachetta/MS1-Fattoria">Repository link</a> and clicking on the <strong>Clone or Download</strong> button and copying the link provided.
  
-![alt text](./ux/clone.png "Cloning Repo")
+![alt text](./readme_imgs/clone.png "Cloning Repo")
 
 In your IDE, open a Terminal window and change to the directory where you want to clone this project and type  `Git clone "your copied link"`.
 

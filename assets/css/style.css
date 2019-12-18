@@ -11,12 +11,6 @@ body {
     padding: 0;
 }
 
-#navbarResponsive .active a,
-#navbarResponsive li a:hover,
-footer .fab:hover {
-    color: #1ebba3;
-}
-
 #navbarResponsive li a {
     -moz-transition: all .35s ease-in-out;
     -o-transition: all .35s ease-in-out;
@@ -24,6 +18,14 @@ footer .fab:hover {
     color: #c8d8d6;
     text-shadow: .125rem .125rem rgba(0, 0, 0, 0.5);
     transition: all .35s ease-in-out;
+}
+
+/* Added footer .fab:hover here to avoid repetition */
+
+#navbarResponsive .active a,
+#navbarResponsive li a:hover,
+footer .fab:hover {
+    color: #1ebba3;
 }
 
 .accordion-titles {
@@ -65,8 +67,13 @@ footer .fab:hover {
     transition: all .35s ease-in-out;
 }
 
-.btn-info:hover,
+/* .btn-info:hover,
 .btn-back:hover {
+    background-color: #ebe1c3;
+    color: #8b4513;
+} */
+
+.btn {
     background-color: #ebe1c3;
     color: #8b4513;
 }
@@ -78,6 +85,10 @@ footer .fab:hover {
 .card-body p {
     text-align: justify;
 }
+
+/* Next three rules to creat the hover efect on the acordion
+cursos: pointer used because that was the only way to create a 
+button effect and having block elements inside */
 
 .card-header {
     -moz-transition: all .35s ease-in-out;
@@ -97,6 +108,12 @@ footer .fab:hover {
 .card-header:hover {
     background-color: rgb(187, 131, 110);
     background-color: rgba(173, 92, 59, .4);
+}
+
+/* To center the carousel images */
+.center-img{
+    display: block;
+    margin: 0 auto;
 }
 
 .col-descriptions {

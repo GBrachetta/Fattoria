@@ -106,10 +106,10 @@ button effect and having block elements inside */
 }
 
 /* To center the carousel images */
-/* .center-img{
+.center-img{
     display: block;
     margin: 0 auto;
-} */
+}
 
 .col-descriptions {
     text-align: justify;

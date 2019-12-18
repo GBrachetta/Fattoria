@@ -2,8 +2,8 @@
 <p align="center">
   <img width="100" height="100" src="./assets/images/logo.png">
 </p>
-<h3 align="center">Live website on <a href="https://gbrachetta.github.io/MS1-Fattoria/"> GitHub Pages</a></h3>
-<h3 align="center">Code on<a href="https://github.com/GBrachetta/MS1-Fattoria/"> GitHub Repository</a></h3>
+<h3 align="center">Live website on <a href="https://gbrachetta.github.io/Fattoria/"> GitHub Pages</a></h3>
+<h3 align="center">Code on<a href="https://github.com/GBrachetta/Fattoria/"> GitHub Repository</a></h3>
 
 
 # TESTING
@@ -47,4 +47,4 @@ This website has gone through validation using the following resources
 
     - The user finds many images, descriptive text and intuitive navigation to different sections.
 
-This is a test after renaming the repo.
+(WORK IN PROGRESS)

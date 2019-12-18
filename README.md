@@ -4,17 +4,15 @@
 <p align="center">
   <img width="100" height="100" src="./assets/images/logo.png">
 </p>
-<p align="center"> This site is live in <a href="https://gbrachetta.github.io/MS1-Fattoria/"> GitHub Pages </a></p>
+<p align="center"> This site is live in <a href="https://gbrachetta.github.io/Fattoria/"> GitHub Pages </a></p>
 
-This is the website of Fattoria di Collemezzano, an agroturismo located in the heart of Tuscany, Italy.
-Agriturismos are typically Italian. They are "farm-stays" and have been (at least until recently) Italy's best-kept accomodation secret. They provide not just accomodation but a way to experience Italian countryside.
-Fattoria di Collemezzano is an independently-owned estate around Cecina, just in the border between the provinces of Pisa and Livorno in Tuscany.
+This is the website of Fattoria di Collemezzano, an agroturismo located in the heart of Tuscany, Italy. Agriturismos are typically Italian. They are "farm-stays" and have been (at least until recently) Italy's best-kept accommodation secret. They provide not just accommodation but a way to experience Italian countryside. Fattoria di Collemezzano is an independently owned estate around Cecina, just in the border between the provinces of Pisa and Livorno in Tuscany.
 
 # <b>UX</b>
 ## STRATEGY PLANE
 ## To whom is this website addressed
 
-- Turists.
+- Tourists.
 - Families (with pets).
 - For average 2 weeks periods.
 - Mostly during the summer holidays, but not limited to it.
@@ -23,28 +21,26 @@ Fattoria di Collemezzano is an independently-owned estate around Cecina, just in
 
 ## Is the content relevant?
 
-- It has to clearly provide practical information.
-- It has to describe and depict facilities and common spaces.
-- It has to stress that it is children and pet friendly.
-- It has to show points of interest.
+- It must clearly provide practical information.
+- It must describe and depict facilities and common spaces.
+- It must stress that it is children and pet friendly.
+- It must show points of interest.
     - Landmarks
     - Beaches
     - Touristic attractions
     - Shopping options
-- It has to show that it is a family owned business and as such there’s immediate response to all needs and direct contact.
-- It has to stress on a relaxed, holiday-like approach, not institutional.
-- It has to provide clear isual information of the location.
+- It must show that it is a family owned business and as such there’s immediate response to all needs and direct contact.
+- It must stress on a relaxed, holiday-like approach, not institutional.
+- It must provide clear visual information of the location.
 - It should display reviews or comments from other users, to give the customer the possibility to relate to people with positive experiences.
 
 ## Is the technology appropriate?
 
-People searching for a holiday destination take time in making an informed decision and they generally rely on a website with descriptions and a rich visual content.
-For many, this is the only holiday they have a year and so they require extensive information on what to do in the resort and nearby.
+People searching for a holiday destination take time in making an informed decision and they generally rely on a website with descriptions and a rich visual content. For many, this is the only holiday they have a year and so they require extensive information on what to do in the resort and nearby.
 
 ## What makes Fattoria di Collemezzano so special?
 
-There’s a lot of competition in the Agriturismo industry in Italy and many oﬀer excellent value, but we can stress how our estate is a traditional, historic building with a lot of space, comfortable apartments and diverse areas of recreation.
-We can also emphasise the excellent location, near the sea but at very short distance from culturally relevant places (Florence, Siena, Pisa, Livorno, Lucca). This is relevant especially for days with weather not appropriate for typical summer activities or for stays oﬀ-season.
+There’s a lot of competition in the Agriturismo industry in Italy and many oﬀer excellent value, but we can stress how our estate is a traditional, historic building with a lot of space, comfortable apartments and diverse areas of recreation. We can also emphasise the excellent location, near the sea but at very short distance from culturally relevant places (Florence, Siena, Pisa, Livorno, Lucca). This is relevant especially for days with weather not appropriate for typical summer activities or for stays oﬀ-season.
 
 ## What are the tech considerations?
 
@@ -53,8 +49,9 @@ Some of the challenges we would like to tackle are:
 
 - Video landing page, for an immersive ﬁrst impression.
 - Static photo on mobile-sized devices to avoid high data consumption.
-- Suﬃcient photos showing what the client can expect, but due to the amount of pictures we plan to have, we would like to compact them using elements like carousels so they don’t become overwhelming or intrusive.
-• Our user will probably favour desktop browsing over mobile due to the nature of the information they’re looking for.
+- Suﬃcient photos showing what the client can expect, but due to the number of pictures we plan to have, we would like to compact them using elements like carousels so they don’t become overwhelming or intrusive.
+
+Our user will probably favour desktop browsing over mobile due to the nature of the information they’re looking for.
 
 ## Why would a user want this?
 
@@ -96,7 +93,7 @@ For this project some research has been carried on. The participants gave the fo
 
 ## What makes a good user experience?
 
-- Finding straightforward and suﬃcient information. 
+- Finding straightforward and suﬃcient information.
 - Finding good images and descriptions.
 - Finding the advantages of the place compared to others.
 - Finding clear information regarding price.
@@ -106,7 +103,7 @@ For this project some research has been carried on. The participants gave the fo
 
 ## What’s worth doing?
 
-- Well presented imagery
+- Well-presented imagery
 - An appealing, immersive landing page (video)
 - The inclusion of a map with which the user can interact.
 - Easy to ﬁnd, straightforward form
@@ -130,7 +127,7 @@ For this project some research has been carried on. The participants gave the fo
 # Features Implemented
 
 ## Common features
-- Each page contains a responsive navigation bar with logo on the top-left. For mobile-sized devices a button on the top-right expands a menu with links to the different pages on the website. On larger devices the expanded menu is shown instead.
+- Each page contains a responsive navigation bar with logo on the top left. For mobile-sized devices a button on the top-right expands a menu with links to the different pages on the website. On larger devices the expanded menu is shown instead.
 - Every page contains a footer with contact information on the left and links to social media on the right by way of social media icons (the owner currently only uses Facebook, links to Twitter and Instagram land on their homepages). 
 - There's copyright information beneath.
 
@@ -165,7 +162,7 @@ For this project some research has been carried on. The participants gave the fo
 
 ![Color Palette](./ux/palette.png)
 
-The color palette used include different shades of typically Tuscan colors (also known as Siena colors) plus the addition of a complementary shade of turquoise for active menu items and active social media icons.
+The colour palette used include different shades of typically Tuscan colours (also known as Siena colours) plus the addition of a complementary shade of turquoise for active menu items and active social media icons.
 
 # Features to implement in the future
 

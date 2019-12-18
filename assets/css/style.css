@@ -67,13 +67,8 @@ footer .fab:hover {
     transition: all .35s ease-in-out;
 }
 
-/* .btn-info:hover,
+.btn-info:hover,
 .btn-back:hover {
-    background-color: #ebe1c3;
-    color: #8b4513;
-} */
-
-.btn {
     background-color: #ebe1c3;
     color: #8b4513;
 }
@@ -111,10 +106,10 @@ button effect and having block elements inside */
 }
 
 /* To center the carousel images */
-.center-img{
+/* .center-img{
     display: block;
     margin: 0 auto;
-}
+} */
 
 .col-descriptions {
     text-align: justify;

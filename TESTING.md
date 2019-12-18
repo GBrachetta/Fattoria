@@ -46,3 +46,5 @@ This website has gone through validation using the following resources
 
 
     - The user finds many images, descriptive text and intuitive navigation to different sections.
+
+This is a test after renaming the repo.

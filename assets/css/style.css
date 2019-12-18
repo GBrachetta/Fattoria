@@ -256,18 +256,18 @@ footer .fab:hover {
     position: relative;
 }
 
-.welcome-lg {
-    font-family: "Sacramento", cursive;
-    font-size: 6rem;
-    text-shadow: .125rem .125rem rgba(0, 0, 0, 0.5);
+.welcome{
+	font-family: "Sacramento", cursive;
+	text-shadow: 0.125rem 0.125rem rgba(0, 0, 0, 0.5);
 }
 
-.welcome-sm {
-    font-family: "Sacramento", cursive;
+.sm{
     font-size: 4rem;
-    text-shadow: .125rem .125rem rgba(0, 0, 0, 0.5);
 }
 
+.lg{
+    font-size: 6rem;
+}
 
 
 footer .fab {

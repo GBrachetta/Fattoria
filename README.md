@@ -243,4 +243,5 @@ After pressing Enter the project will be created and cloned locally.
 
 ## Acknowledgements
 - To all members of Code Institute active on Slack and ready to help on everything at random times. Special mentions of unvaluable help at this stage: <a href="https://github.com/Eventyret">Simen Daehlin</a>, <a href="https://github.com/AJGreaves">Anna Greaves</a> and all mentors, tutors, alumni and students always ready and generous to help.
+- To <a href="https://github.com/5pence">Spencer Barriball</a>, my mentor for this project.
 - To Rut for her constant patience and support.

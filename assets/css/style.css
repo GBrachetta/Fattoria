@@ -1,5 +1,16 @@
 @import url(https://fonts.googleapis.com/css?family=Josefin+Slab:300,400,600,700|Lato:300,400,700,900|Sacramento&display=swap);
 
+body {
+    background-color: #fcfaf8;
+    color: #252525;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+    overflow-x: hidden;
+    padding: 0;
+}
+
 #navbarResponsive .active a,
 #navbarResponsive li a:hover,
 footer .fab:hover {
@@ -210,7 +221,7 @@ footer .fab:hover {
 
 .section-titles {
     color: #4e4e4e;
-    font-family: Sacramento, cursive;
+    font-family: "Sacramento", cursive;
     font-size: 3rem;
     margin-top: 2rem;
     text-shadow: .125rem .125rem rgba(0, 0, 0, 0.1);
@@ -246,27 +257,18 @@ footer .fab:hover {
 }
 
 .welcome-lg {
-    font-family: Sacramento, cursive;
+    font-family: "Sacramento", cursive;
     font-size: 6rem;
     text-shadow: .125rem .125rem rgba(0, 0, 0, 0.5);
 }
 
 .welcome-sm {
-    font-family: Sacramento, cursive;
+    font-family: "Sacramento", cursive;
     font-size: 4rem;
     text-shadow: .125rem .125rem rgba(0, 0, 0, 0.5);
 }
 
-body {
-    background-color: #fcfaf8;
-    color: #252525;
-    font-family: Lato, sans-serif;
-    font-size: 16px;
-    font-weight: 300;
-    margin: 0;
-    overflow-x: hidden;
-    padding: 0;
-}
+
 
 footer .fab {
     -moz-transition: all .35s ease-in-out;
@@ -320,7 +322,7 @@ input:required:invalid {
     }
 
     body {
-        font-size: 1.2rem;
+        font-size: 20px;
     }
 
     footer .fab {

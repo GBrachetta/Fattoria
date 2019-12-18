@@ -71,6 +71,7 @@ footer .fab:hover {
 .card-header {
     -moz-transition: all .35s ease-in-out;
     -o-transition: all .35s ease-in-out;
+    -moz-appearance: none;
     -webkit-appearance: none;
     -webkit-transition: all .35s ease-in-out;
     background-color: #fafafa;

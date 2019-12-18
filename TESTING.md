@@ -20,9 +20,8 @@ This website has gone through validation using the following resources
 
 ## KNOWN ISSUES
 
-- The two fields `type="date"` in the form in contact.html with a validation warning:
-    - Safari and IE don't include a native datepicker. As a workaround I included a `placeholder:"dd-mm-yyyy"` as a fallback for the above browsers.
-    - This solution found in <a href="https://stackoverflow.com/questions/35682138/html5-date-picker-doesnt-show-on-safari">this thread</a>, answer number 3
+- The two fields `type="date"` in the form in contact.html display a validation warning:
+    - Safari and IE don't include a native datepicker. As a workaround I included a `placeholder:"dd-mm-yyyy"` as a fallback for the above browsers. I applied this solution found in <a href="https://stackoverflow.com/questions/35682138/html5-date-picker-doesnt-show-on-safari">this thread</a>, answer number 3.
 
 ## USER STORIES
 ### For people looking for a holiday resort
@@ -45,7 +44,9 @@ This website has gone through validation using the following resources
 ### FOR OWNERS
 - The owners have the possibility to show their product.
 - The owners have an easy way to be contacted.
-### FUNCTIONALITIES
+
+# FUNCTIONALITIES
+The following functionalities have been tested and behave correctly in mobile devices and desktop using Google Chrome, Safari, Mozilla Firefox, Opera and IE.
 
 ### Home Page
 - The user browsing the website finds on landing a strong image immersing them in a place they would like to visit.
@@ -53,6 +54,28 @@ This website has gone through validation using the following resources
 - An interactive map can be zoomed in/out by the user to find the location and refer to points of interest.
 - Tabs in the accordion on the homepage invite to be clicked with a transition and display more images and text which would otherwise clutter the page.
 
+### About Page
 
+- This page displays photos and text, no interactive content besides navigation bar and social icons.
 
-(WORK IN PROGRESS)
+### Apartments Page
+
+- This page displays the same as the previous one, with added call to action buttons which open each a new page with more detailed information.
+
+### Individual Apartments Page
+
+- This is the page opened by clicking the call to action button from the previous page.
+- They include a carousel to accomodate more images without cluttering.
+- They also have a call to action button opening contact.html in order to interact with the form to make a reservation or request information.
+- They also have an extra (smaller) call to action button to go back to the Apartments Page from where this came from.
+
+### Contact Page
+
+- This page includes a form with 4 required fields (requirement also underlined by their red border)
+    - Name
+    - Surname
+    - Phone Number
+    - Email Address
+
+- The form also includes a variety of non required fields.
+

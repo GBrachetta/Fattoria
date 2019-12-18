@@ -164,6 +164,12 @@ For this project some research has been carried on. The participants gave the fo
 
 The colour palette used include different shades of typically Tuscan colours (also known as Siena colours) plus the addition of a complementary shade of turquoise for active menu items and active social media icons.
 
+## Fonts
+
+- The font-family chosen for the titles is Sacramento, a cursive font with an informal and cosy touch.
+- For almost all text, the choice was Lato for its good legibility at light weight.
+- Finally the only occurence of the third font-family, Josefin Slab, was used to underline the slogan "Welcome <strong>to your second home</strong>.
+
 # Features to implement in the future
 
 - Fully functional form with captcha (Javascript required)

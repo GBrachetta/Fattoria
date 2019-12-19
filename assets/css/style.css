@@ -81,8 +81,8 @@ footer .fab:hover {
     text-align: justify;
 }
 
-/* Next three rules to creat the hover efect on the acordion
-cursos: pointer used because that was the only way to create a 
+/* Next three rules to create the hover efect on the acordion
+cursor:pointer used because that was the only way to create a 
 button effect and having block elements inside */
 
 .card-header {

@@ -21,7 +21,7 @@ This website has gone through validation using the following resources
 ## KNOWN ISSUES
 
 - The two fields `type="date"` in the form in contact.html display a validation warning:
-    - Safari and IE don't include a native datepicker. As a workaround I included a `placeholder:"dd-mm-yyyy"` as a fallback for the above browsers. I applied this solution found in <a href="https://stackoverflow.com/questions/35682138/html5-date-picker-doesnt-show-on-safari">this thread</a>, answer number 3.
+    - Safari and IE don't include a native datepicker. As a workaround I included a script in contact.html for a polyfill which adds a datepicker functional also in Safari and IE. Credit to <a href="https://github.com/Eventyret">Simen Daehlin</a> for this solution.
 
 ## USER STORIES
 ### For people looking for a holiday resort

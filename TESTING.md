@@ -18,6 +18,14 @@ This website has gone through validation using the following resources
 - <a href="https://www.google.com/chrome/">Google Chrome Developer Tools</a>
     - For permanently checking, testing on the fly, identifying issues and controlling device compatibility.
 
+<p>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+            alt="Valid CSS!" />
+    </a>
+</p>
+
 ## KNOWN ISSUES
 
 - The two fields `type="date"` in the form in contact.html display a validation warning:

@@ -111,6 +111,12 @@ button effect and having block elements inside */
     margin: 0 auto;
 }
 
+/* I gave the carousel a max width of 1160px (the width of the images) so the 
+controls would stay in place when the image reached its full size */
+.carousel-inner{
+    max-width: 1160px;
+}
+
 .col-descriptions {
     text-align: justify;
     text-justify: auto;

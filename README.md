@@ -64,7 +64,7 @@ The amount of places on oﬀer is big, but not unlimited and due to the nature o
 It’s not a matter of if they will choose us or not, it’s rather a matter of being amongst the ﬁrst ones chosen when comparing diﬀerent alternatives.<br>
 Often Agriturismos show a very much business-like approach and they lose the personal touch of a family-run company.
 
-## Research
+## RESEARCH
 
 For this project some research has been carried on. The participants gave the following items relevance, in order of importance:
 
@@ -124,7 +124,7 @@ For this project some research has been carried on. The participants gave the fo
 - <a href="./wireframes/4_individual_apartment.png" target=_blank>Individual apartments</a>
 - <a href="./wireframes/5_contact_bookings.png" target=_blank>Contact</a>
 
-# USER STORIES
+## USER STORIES
 ## For people looking for a holiday resort
 - The images, video and descriptions of the place and places nearby provide enough and engaging information.
 - The design relies a lot on visual impact with stress in the authenticity of the place.
@@ -147,7 +147,7 @@ For this project some research has been carried on. The participants gave the fo
 - The owners have an easy way to be contacted.
 
 
-# Features Implemented
+# FEATURES IMPLEMENTED
 
 ## Common features
 - Each page contains a responsive navigation bar with logo on the top left. For mobile-sized devices a button on the top-right expands a menu with links to the different pages on the website. On larger devices the expanded menu is shown instead.
@@ -210,7 +210,7 @@ The colour palette used include different shades of typically Tuscan colours (al
 - Email sent back acknowledging request for booking or information
 - Additional languages pages (requires professional translator)
 
-# Technologies Used
+# TECHNOLOGIES USED
 
 ## Language
 - HTML
@@ -237,9 +237,9 @@ The colour palette used include different shades of typically Tuscan colours (al
 - <a href="https://www.adobe.com/products/illustrator.html">Adobe Illustrator</a>
     - To create the logo image.
 
-# Testing
+# TESTING
 
-## VALIDATION
+## Validation
 This website has gone through validation using the following resources
 
 - HTML <a href="https://validator.w3.org/">Validation</a>
@@ -257,18 +257,21 @@ This website has gone through validation using the following resources
     </a>
 </p>
 
-## TESTING PERFORMED
+## Testing Performed
 - The website was tested on all major browser in different platforms and operating systems.
 - The website was tested in mobile devices of different sizes and makers, and proved to react responsively.
 - The website was tested in Developer Tools in Chrome (Mac) to simulate different scenarios.
 - 
 
-## KNOWN ISSUES
+## Known Issues
 
 - The two fields `type="date"` in the form in contact.html display a validation warning:
     - Safari and IE don't include a native datepicker. As a workaround I included a script in contact.html for a polyfill which adds a datepicker functional also in Safari and IE. Credit to <a href="https://github.com/Eventyret">Simen Daehlin</a> for this solution.
 
-# Git
+
+# DEPLOYMENT
+
+## GIT
 The following commands were used during the process
 - `Git add "filename"` or `Git add .`
     - To stage files.
@@ -277,10 +280,11 @@ The following commands were used during the process
 - `Git push` 
     - To push commits to my repository.
 
+## GitHub and Publishing
 
-# Deployment
+The project can be found on GitHub.
 
-The website is hosted on GitHub pages and will update as new commits occur.
+The website is hosted on GitHub Pages and will update as new commits occur.
 
 Further work and commitments will temporarily stop during the period while this project is reviewed and graded.
 
@@ -300,7 +304,7 @@ In your IDE, open a Terminal window and change to the directory where you want t
 After pressing Enter the project will be created and cloned locally.
 
 
-# Credits and Acknowledgements 
+# CREDITS AND ACKNOWLEDGEMENTS 
 
 ## Media
 - Video shot and edited by me.

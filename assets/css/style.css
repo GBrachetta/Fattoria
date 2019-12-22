@@ -100,6 +100,7 @@ button effect and having block elements inside */
     text-decoration: none;
 }
 
+/* The rgb value is fallback for browsers not supporting transparency */
 .card-header:hover {
     background-color: rgb(187, 131, 110);
     background-color: rgba(173, 92, 59, .4);
@@ -252,6 +253,7 @@ controls would stay in place when the image reached its full size */
     text-shadow: .125rem .125rem rgba(0, 0, 0, 0.5);
 }
 
+/* z-index: -1 prevents the user from interacting with the video controls */
 .video {
     border-style: none;
     height: 100%;
@@ -262,7 +264,7 @@ controls would stay in place when the image reached its full size */
     z-index: -1;
 }
 
-/* VIDEO SECTION'S STYLING LEARNED FROM ANNA GREAVES' MS1 CODE */
+/* Video section's styling learned from Anna Greave's Milestone 1 project */
 .video-wrapper {
     padding: 56.25% 0 0;
     position: relative;
@@ -301,7 +303,7 @@ input:required:invalid {
     border-color: #c00000;
 }
 
-/***************************** MEDIA QUERIES */
+/* MEDIA QUERIES */
 @media (min-width: 768px) {
     .accordion-titles {
         font-size: 1.2rem;

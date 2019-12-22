@@ -263,7 +263,6 @@ This website has gone through validation using the following resources
 - The website was tested on all major browser in different platforms and operating systems.
 - The website was tested in mobile devices of different sizes and makers, and proved to react responsively.
 - The website was tested in Developer Tools in Chrome (Mac) to simulate different scenarios.
-- 
 
 ## Known Issues
 

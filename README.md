@@ -203,7 +203,7 @@ The colour palette used include different shades of typically Tuscan colours (al
 - For almost all text, the choice was Lato for its good legibility at light weight.
 - Finally the only occurence of the third font-family, Josefin Slab, was used to underline the slogan "Welcome <strong>to your second home</strong>.
 
-# Features to implement in the future
+## Features to implement in the future
 
 - Fully functional form with captcha (Javascript required)
 - Reviews linked to Tripadvisor or similar (More technology needed)

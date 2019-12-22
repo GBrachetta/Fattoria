@@ -4,7 +4,7 @@
 <p align="center">
   <img width="100" height="100" src="./assets/images/logo.png">
 </p>
-<p align="center"> This site is live in <a href="https://gbrachetta.github.io/Fattoria/"> GitHub Pages </a></p>
+<p align="center"> This site is live in <a href="https://gbrachetta.github.io/Fattoria/" target="_blank"> GitHub Pages </a></p>
 
 This is the website of Fattoria di Collemezzano, an agroturismo located in the heart of Tuscany, Italy. Agriturismos are typically Italian. They are "farm-stays" and have been (at least until recently) Italy's best-kept accommodation secret. They provide not just accommodation but a way to experience Italian countryside. Fattoria di Collemezzano is an independently owned estate around Cecina, just in the border between the provinces of Pisa and Livorno in Tuscany.
 
@@ -117,12 +117,12 @@ For this project some research has been carried on. The participants gave the fo
 ## STRUCTURE AND SKELETON PLANES
 ## Wire frames
 
-- <a href="./wireframes/0_structure.png" target=_blank> Structure</a>
-- <a href="./wireframes/1_homepage.png" target=_blank>Homepage</a>
-- <a href="./wireframes/2_about.png" target=_blank>About</a>
-- <a href="./wireframes/3_apartments.png" target=_blank>Apartments</a>
-- <a href="./wireframes/4_individual_apartment.png" target=_blank>Individual apartments</a>
-- <a href="./wireframes/5_contact_bookings.png" target=_blank>Contact</a>
+- <a href="./wireframes/0_structure.png" target="_blank"> Structure</a>
+- <a href="./wireframes/1_homepage.png" target="_blank">Homepage</a>
+- <a href="./wireframes/2_about.png" target="_blank">About</a>
+- <a href="./wireframes/3_apartments.png" target="_blank">Apartments</a>
+- <a href="./wireframes/4_individual_apartment.png" target="_blank">Individual apartments</a>
+- <a href="./wireframes/5_contact_bookings.png" target="_blank">Contact</a>
 
 ## USER STORIES
 ## For people looking for a holiday resort
@@ -222,21 +222,21 @@ The colour palette used include different shades of typically Tuscan colours (al
 
 ## Framework
 
-- <a href="https://getbootstrap.com/">Bootstrap</a>
+- <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a>
     - For page structure, responsive layout and basic styling.
 
 ## Tools
-- <a href="https://fontawesome.com/">Font Awesome</a>
+- <a href="https://fontawesome.com/" target="_blank">Font Awesome</a>
     - For icons used for social network.
-- <a href="https://fonts.google.com/">Google Fonts</a>
+- <a href="https://fonts.google.com/" target="_blank">Google Fonts</a>
     - For the fonts used on this website.
-- <a href="https://vimeo.com/">Vimeo</a>
+- <a href="https://vimeo.com/" target="_blank">Vimeo</a>
     - For hosting the video.
-- <a href="https://jquery.com/">jQuery</a>
+- <a href="https://jquery.com/" target="_blank">jQuery</a>
     - For the functioning of the responsive navbar through Javascript.
-- <a href="https://popper.js.org/">Popper.js</a>
+- <a href="https://popper.js.org/" target="_blank">Popper.js</a>
     - For the functioning of the responsive navbar through Javascript.
-- <a href="https://www.adobe.com/products/illustrator.html">Adobe Illustrator</a>
+- <a href="https://www.adobe.com/products/illustrator.html" target="_blank">Adobe Illustrator</a>
     - To create the logo image.
 
 # TESTING
@@ -244,15 +244,15 @@ The colour palette used include different shades of typically Tuscan colours (al
 ## Validation
 This website has gone through validation using the following resources
 
-- HTML <a href="https://validator.w3.org/">Validation</a>
-- CSS Validation <a href="https://jigsaw.w3.org/css-validator/">Here</a> and <a href="http://csslint.net/">Here</a>
-- <a href="https://autoprefixer.github.io/">AutoPrefixer</a>
+- HTML <a href="https://validator.w3.org/" target="_blank">Validation</a>
+- CSS Validation <a href="https://jigsaw.w3.org/css-validator/" target="_blank">Here</a> and <a href="http://csslint.net/" target="_blank">Here</a>
+- <a href="https://autoprefixer.github.io/" target="_blank">AutoPrefixer</a>
     - For checking browser compatibility of the CSS code.
-- <a href="https://www.google.com/chrome/">Google Chrome Developer Tools</a>
+- <a href="https://www.google.com/chrome/" target="_blank">Google Chrome Developer Tools</a>
     - For permanently checking, testing on the fly, identifying issues and controlling device compatibility.
 
 <p>
-    <a href="https://jigsaw.w3.org/css-validator/check/referer">
+    <a href="https://jigsaw.w3.org/css-validator/check/referer" target="_blank">
         <img style="border:0;width:88px;height:31px"
             src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
             alt="Valid CSS!" />
@@ -267,7 +267,7 @@ This website has gone through validation using the following resources
 ## Known Issues
 
 - The two fields `type="date"` in the form in contact.html display a validation warning:
-    - Safari and IE don't include a native datepicker. As a workaround I included a script in contact.html for a polyfill which adds a datepicker functional also in Safari and IE. Credit to <a href="https://github.com/Eventyret">Simen Daehlin</a> for this solution.
+    - Safari and IE don't include a native datepicker. As a workaround I included a script in contact.html for a polyfill which adds a datepicker functional also in Safari and IE. Credit to <a href="https://github.com/Eventyret" target="_blank">Simen Daehlin</a> for this solution.
 
 
 # DEPLOYMENT
@@ -296,7 +296,7 @@ The method used to deploy this website was as follows:
 4. The website was immediately published and a green tab appeared with a link to the live website.
 5. The link obtained is the one displaying at the top of this document.
 
-This project can be ran locally by going to this <a href="https://github.com/GBrachetta/MS1-Fattoria">Repository link</a> and clicking on the <strong>Clone or Download</strong> button and copying the link provided.
+This project can be ran locally by going to this <a href="https://github.com/GBrachetta/MS1-Fattoria" target="_blank">Repository link</a> and clicking on the <strong>Clone or Download</strong> button and copying the link provided.
  
 ![alt text](./readme_imgs/clone.png "Cloning Repo")
 
@@ -312,7 +312,7 @@ After pressing Enter the project will be created and cloned locally.
 - All aerial photos taken by me.
 - Apartments images used with permission of the owner of Fattoria di Collemezzano, Francesca Russo.
 - Some descriptive text originally hosted in current website of Fattoria di Collemezzano, used with permission by the owner, Francesca Russo.
-- The images in the accordion in index.html sourced from <a href="https://www.google.com/imghp?hl=en">Google Images</a>.
+- The images in the accordion in index.html sourced from <a href="https://www.google.com/imghp?hl=en" target="_blank">Google Images</a>.
 - The logo designed and created by me on Adobe Illustrator. It's an "F" using the font of the main headers, contained inside an object shaped in the form of a "raviolo", many of which (never too many!) make one of the most traditional Italian dishes: Ravioli.
 
 ## Content
@@ -320,11 +320,11 @@ After pressing Enter the project will be created and cloned locally.
 
 ## Code
 All credit has been mentioned in the relevant sections of the code. Special mention to:
-- Carousel with fade effect from <a href="mdbootstrap.com">Mdbootstrap</a>.
-- Logo drop shadow from <a href="https://stackoverflow.com/questions/3186688/drop-shadow-for-png-image-in-css">Stack Overflow</a>.
-- Text overlay for Hero image and video adapted for this site from Anna Greaves' <a href="https://github.com/AJGreaves/portrait-artist">Portrait Artist, Milestone 1, Code Institute</a>.
+- Carousel with fade effect from <a href="mdbootstrap.com" target="_blank">Mdbootstrap</a>.
+- Logo drop shadow from <a href="https://stackoverflow.com/questions/3186688/drop-shadow-for-png-image-in-css" target="_blank">Stack Overflow</a>.
+- Text overlay for Hero image and video adapted for this site from Anna Greaves' <a href="https://github.com/AJGreaves/portrait-artist" target="_blank">Portrait Artist, Milestone 1, Code Institute</a>.
 
 ## Acknowledgements
-- To all members of Code Institute active on Slack and ready to help on everything at random times. Special mentions of unvaluable help at this stage: <a href="https://github.com/Eventyret">Simen Daehlin</a>, <a href="https://github.com/AJGreaves">Anna Greaves</a> and all mentors, tutors, alumni and students always ready and generous to help.
-- To <a href="https://github.com/5pence">Spencer Barriball</a>, my mentor for this project.
+- To all members of Code Institute active on Slack and ready to help on everything at random times. Special mentions of unvaluable help at this stage: <a href="https://github.com/Eventyret" target="_blank">Simen Daehlin</a>, <a href="https://github.com/AJGreaves" target="_blank">Anna Greaves</a> and all mentors, tutors, alumni and students always ready and generous to help.
+- To <a href="https://github.com/5pence" target="_blank">Spencer Barriball</a>, my mentor for this project.
 - To Rut for her constant patience and support.

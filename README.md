@@ -124,39 +124,72 @@ For this project some research has been carried on. The participants gave the fo
 - <a href="./wireframes/4_individual_apartment.png" target=_blank>Individual apartments</a>
 - <a href="./wireframes/5_contact_bookings.png" target=_blank>Contact</a>
 
+# USER STORIES
+## For people looking for a holiday resort
+- The images, video and descriptions of the place and places nearby provide enough and engaging information.
+- The design relies a lot on visual impact with stress in the authenticity of the place.
+- The website makes emphasis on the fact that it is or offers:
+    - Family/children/pets friendly
+    - Excellent location
+    - Personal tratment
+- Easy Navigation
+- The navigation highlights indicate visually where the user is in the website and where they can go.
+- The logo always takes the user back to the homepage
+- Besides the Navigation Bar, different call to action buttons invite the user to perform an action (book, go back, open).
+- Images
+    - Well organised and distributed.
+    - When several images need to be displayed, they are organised in carousels or accordion to prevent clutter.
+- After eventually making a choice, the user has the chance to make a booking or request extra information.
+- The form doesn't oblige the user to make a reservation, as only name, surname, phone number and email address are required fields. In this way the user can send the form asking for more information or sending a comment or message.
+
+## FOR OWNERS
+- The owners have the possibility to show their product.
+- The owners have an easy way to be contacted.
+
+
 # Features Implemented
 
 ## Common features
 - Each page contains a responsive navigation bar with logo on the top left. For mobile-sized devices a button on the top-right expands a menu with links to the different pages on the website. On larger devices the expanded menu is shown instead.
-- Every page contains a footer with contact information on the left and links to social media on the right by way of social media icons (the owner currently only uses Facebook, links to Twitter and Instagram land on their homepages). 
+- Every page contains a footer with contact information on the left and links to social media on the right by way of social media icons (the owner currently only uses Facebook, links to Twitter and Instagram land on their respective homepages). 
+- The navigation reacts with a visual transition where it's clickable. The same transition is applied to the social media icons in the footer of all pages. 
 - There's copyright information beneath.
 
 ## Homepage
 
 - On mobile devices there's a hero image with overlay text covering the surface of the device.
-- On larger displays the hero static image is replaced by a fluid video hosted externally, with the same overlay as the mobile version. (The static image takes over on mobile devices to save user's data in case they are browsing using mobile networks).
+- On larger displays the hero static image is replaced by a fluid video hosted externally, with the same overlay as the mobile version. (The static image takes over on mobile devices to save user's data in case they are browsing using mobile networks) in order to provide with an immersing first impression.
 - Immediately beneath there's a carousel with slides and general descriptive text of what Fattoria di Collemezzano has to offer.
-- Underneath there's an interactive map with the location of the resort and brief descriptive text.
-- Beneath this there's a vertical accordion with different titles. Each tab has a photo and a longer description. All of them are initially collapsed on loading. This has been done to avoid clutter, since the information provided here is more extensive regarding points of interest around the Fattoria (art and culture, beaches, thermal waters, sport activities).
+- Underneath there's an interactive map that can be zoomed in/out by the user to find the location and refer to points of interest, followed by descriptive text.
+- Beneath this there's a vertical accordion with different titles. Each tab contains a photo and a longer description. All of them are initially collapsed on loading. This has been done to avoid clutter, since the information provided here is more extensive regarding points of interest around the Fattoria (art and culture, beaches, thermal waters, sport activities).
 
 ## About
 
 - The first visible content is a photo of the owner and a personal message.
 - Beneath there are photos of the different facilities to be encountered in the Fattoria, accompanied by descriptive text.
 - Underneath there's a section with reviews from previous customers.
+- This page displays photos and text, no interactive content besides navigation bar and social icons.
 
 ## Apartments
 
-- The four small sections of this page display each a single image of each of the apartments offered, brief descriptive text and a call to action button leading to find out more information about each of the units.
+- The four small sections of this page display each a single image of each of the apartments offered, brief descriptive text and a call to action button leading to find out more information about each of the units or perform a booking request.
 
-## Individual Apartments
+## Individual Apartments Pages
 
-- Each of the four Individual Apartments page displays a carousel with several photos of the apartment and more extensive descriptions.
-- There's a clear indication of the price of the apartment and a call to action button to request more information or proceed with a booking. This button leads to the form contained in the Contact page.
+- These are the pages opened by clicking the call to action button from the previous page.
+- Each of the four Individual Apartments page displays a carousel to accomodate several photos of the apartment without cluttering and more extensive descriptions.
+- They display clear information about the price and a call to action button opening contact.html in order to interact with the form to make a reservation or request information.
+- They also have an extra (smaller) call to action button to go back to the Apartments Page from where these ones came from.
 
 ## Contact
 
-- The contact page contains a form with validation with several options to request information or make a booking, including start and end date of the desired rental and other options.
+- This page includes a form with 4 required fields (requirement also underlined by their red border)
+    - Name
+    - Surname
+    - Phone Number
+    - Email Address
+- The form also includes a variety of non required fields. Booking is not compulsory (not required fields)  and the form can be used to enquire extra information or send a message. 
+- The page closes with a personal message from the owner, again underlining direct and personal contact with the user.
 
 ## Color Palette
 
@@ -206,11 +239,50 @@ The colour palette used include different shades of typically Tuscan colours (al
 
 # Testing
 
-Please refer to the dedicated <a href="TESTING.md">Testing Document</a>
+## VALIDATION
+This website has gone through validation using the following resources
+
+- HTML <a href="https://validator.w3.org/">Validation</a>
+- CSS Validation <a href="https://jigsaw.w3.org/css-validator/">Here</a> and <a href="http://csslint.net/">Here</a>
+- <a href="https://autoprefixer.github.io/">AutoPrefixer</a>
+    - For checking browser compatibility of the CSS code.
+- <a href="https://www.google.com/chrome/">Google Chrome Developer Tools</a>
+    - For permanently checking, testing on the fly, identifying issues and controlling device compatibility.
+
+<p>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+            alt="Valid CSS!" />
+    </a>
+</p>
+
+## TESTING PERFORMED
+- The website was tested on all major browser in different platforms and operating systems.
+- The website was tested in mobile devices of different sizes and makers, and proved to react responsively.
+- The website was tested in Developer Tools in Chrome (Mac) to simulate different scenarios.
+- 
+
+## KNOWN ISSUES
+
+- The two fields `type="date"` in the form in contact.html display a validation warning:
+    - Safari and IE don't include a native datepicker. As a workaround I included a script in contact.html for a polyfill which adds a datepicker functional also in Safari and IE. Credit to <a href="https://github.com/Eventyret">Simen Daehlin</a> for this solution.
+
+# Git
+The following commands were used during the process
+- `Git add "filename"` or `Git add .`
+    - To stage files.
+- `Git commit -m "message"` 
+    - To commit files previously staged.
+- `Git push` 
+    - To push commits to my repository.
+
 
 # Deployment
 
-The website is hosted on GitHub pages and will (for the time being) update as new commits occur.
+The website is hosted on GitHub pages and will update as new commits occur.
+
+Further work and commitments will temporarily stop during the period while this project is reviewed and graded.
 
 The method used to deploy this website was as follows:
 1. In GitHub, navigated to my repository.

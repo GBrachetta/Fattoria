@@ -320,7 +320,7 @@ After pressing Enter the project will be created and cloned locally.
 
 ## Code
 All credit has been mentioned in the relevant sections of the code. Special mention to:
-- Carousel with fade effect from <a href="mdbootstrap.com">Mdbootstrap</a>.
+- Carousel with fade effect from <a href="https://mdbootstrap.com/docs/jquery/javascript/carousel/">Mdbootstrap</a>.
 - Logo drop shadow from <a href="https://stackoverflow.com/questions/3186688/drop-shadow-for-png-image-in-css">Stack Overflow</a>.
 - Text overlay for Hero image and video adapted for this site from Anna Greaves' <a href="https://github.com/AJGreaves/portrait-artist">Portrait Artist, Milestone 1, Code Institute</a>.
 

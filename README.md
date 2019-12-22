@@ -214,9 +214,11 @@ The colour palette used include different shades of typically Tuscan colours (al
 
 ## Language
 - HTML
-    - Hypertext Markup Language
+    - Hypertext Markup Language.
 - CSS
     - Cascading Style Sheet.
+- JavaScript
+    - For polyfills on `type="date"` fields in form and copyright year in the footer.
 
 ## Framework
 
